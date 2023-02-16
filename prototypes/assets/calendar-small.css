@@ -1,0 +1,5713 @@
+#calendar .dates li{
+  border-width:2px;
+}
+
+#calendar ul li h1{
+  border-width:2px;
+}
+
+#calendar .decoration,
+#calendar .blocked{
+  border-width:2px;
+  height:32px;
+}
+
+#calendar .selected,
+#calendar ul li h1:hover,
+#calendar .blocked:hover{
+  border-width:2px !important;
+}
+
+#calendar .selected.groupstart,
+#calendar .ui-selected.groupstart{
+  padding-bottom:3px !important;
+}
+
+#calendar ol li{
+  font-size:11px;
+  height:32px;
+  line-height:15px;
+}
+
+#calendar ul li h1{
+  font-size:11px;
+  height:32px;
+  line-height:26px;
+}
+
+#calendar .name{
+  left:3px;
+  top:-1px;
+}
+
+#calendar .time{
+  color:#777;
+  font-size:9px;
+  left:3px;
+  line-height:12px;
+  top:14px;
+}
+
+#calendar .expanded li .time{
+  top:14px !important;
+}
+
+#calendar .projectname{
+  display:none;
+}
+
+#calendar .group .name,
+#calendar .groupend .name{
+  top:4px;
+}
+
+#calendar .group .time,
+#calendar .groupend .time{
+  top:19px;
+}
+
+#calendar .weekstart.group .name,
+#calendar .weekstart.groupend .name{
+  top:6px;
+}
+
+#calendar .weekstart.group .time,
+#calendar .weekstart.groupend .time{
+  top:21px;
+}
+
+#calendar .dates li{
+  font-size:11px;
+  height:32px;
+  line-height:16px;
+}
+
+#calendar .dates .date-decorator{
+  margin-top:-3px;
+}
+
+#calendar .dates .date-decorator:nth-of-type(n+2){
+  display:none !important;
+}
+
+#calendar .dates form{
+  top:3px;
+}
+
+#calendar .week{
+  right:-6px;
+}
+
+#calendar .multiple{
+  background:url(../images/mini-stackr-sm.svg) no-repeat center center;
+  bottom:1px;
+  height:14px;
+  padding-left:1px;
+  padding-top:2px;
+  right:1px;
+  width:16px;
+}
+
+#calendar .group .multiple{
+  bottom:3px;
+}
+
+#calendar .multiple.optioned{
+  color:#D00;
+}
+
+#calendar .empty.selected,
+#calendar .empty.ui-selected,
+#calendar .empty.droppable-hover,
+#calendar ol li.empty:hover{
+  height:32px !important;
+}
+
+#calendar .group{
+  height:39px !important;
+}
+
+#calendar #hidden-columns ol li.showmore,
+#calendar #hidden-columns ol li.showmore.selected{
+  border-width:2px !important;
+  height:32px !important;
+}
+
+#calendar #hidden-columns ol li.showmore:hover,
+#calendar #hidden-columns ol li.showmore.selected:hover{
+  border-width:2px !important;
+}
+
+#calendar #hidden-columns ol li.showmore a,
+#calendar #hidden-columns ol li.showmore.selected a{
+  font-size:10px;
+  font-weight:normal;
+  height:32px !important;
+  line-height:28px !important;
+}
+
+.related-events.later{
+  top:25px;
+}
+
+#cal-location,
+#cal-hr{
+  top:2px;
+}
+
+#calendar ol{
+  margin-top:44px;
+  width:116px;
+}
+
+#calendar ul li h1{
+  width:112px;
+}
+
+#calendar .name,
+#calendar .projectname{
+  max-width:101px;
+}
+
+#calendar .name input,
+#calendar .projectname input{
+  max-width:98px;
+}
+
+#calendar .locked .name input,
+#calendar .locked .projectname input{
+  width:78px;
+}
+
+#calendar .locked:hover .name,
+#calendar .locked.selected .name,
+#calendar .locked.ui-selected .name,
+#calendar .locked.group-selected .name,
+#calendar .locked-actual:hover .name,
+#calendar .locked-actual.selected .name,
+#calendar .locked-actual.ui-selected .name,
+#calendar .locked-actual.group-selected .name{
+  max-width:86px;
+}
+#calendar .groupstart{
+  padding-bottom:3px !important;
+  height:34px !important;
+}
+
+#calendar .group{
+  height:39px !important;
+}
+
+#calendar .groupend{
+  height:35px !important;
+}
+
+#calendar .sunday.group{
+  height:43px !important;
+}
+
+#calendar .weekstart.group{
+  height:41px !important;
+}
+
+#calendar .sunday.groupstart{
+  padding-bottom:7px !important;
+  height:38px !important;
+}
+
+#calendar .weekstart.groupend{
+  height:37px !important;
+}
+
+#calendar.expanded .expanded-2{
+  height:68px !important;
+}
+
+#calendar.expanded .empty.expanded-2,
+#calendar.expanded #hidden-columns .expanded-2{
+  height:68px !important;
+}
+
+#calendar.expanded .empty.expanded-2:hover{
+  height:68px !important;
+}
+
+#calendar.expanded .group.expanded-2{
+  height:75px !important;
+}
+
+#calendar.expanded .groupend.expanded-2{
+  height:71px !important;
+}
+
+#calendar.expanded .groupstart.expanded-2{
+  height:70px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-2{
+  height:79px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-2{
+  height:74px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-2{
+  height:77px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-2{
+  height:73px !important;
+}
+
+#calendar.expanded .dates .expanded-2,
+#calendar.expanded #hidden-columns .showmore.expanded-2{
+  height:32px !important;
+  margin-bottom:40px;
+}
+
+#calendar.expanded .dates .sunday.expanded-2,
+#calendar.expanded #hidden-columns .sunday.expanded-2{
+  margin-bottom:46px;
+}
+
+#calendar.expanded .expanded-2:not(.expanded) .related-events.later{
+  top:65px;
+}
+
+#calendar.expanded .expanded-3{
+  height:104px !important;
+}
+
+#calendar.expanded .empty.expanded-3,
+#calendar.expanded #hidden-columns .expanded-3{
+  height:104px !important;
+}
+
+#calendar.expanded .empty.expanded-3:hover{
+  height:104px !important;
+}
+
+#calendar.expanded .group.expanded-3{
+  height:111px !important;
+}
+
+#calendar.expanded .groupend.expanded-3{
+  height:107px !important;
+}
+
+#calendar.expanded .groupstart.expanded-3{
+  height:106px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-3{
+  height:115px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-3{
+  height:110px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-3{
+  height:113px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-3{
+  height:109px !important;
+}
+
+#calendar.expanded .dates .expanded-3,
+#calendar.expanded #hidden-columns .showmore.expanded-3{
+  height:32px !important;
+  margin-bottom:76px;
+}
+
+#calendar.expanded .dates .sunday.expanded-3,
+#calendar.expanded #hidden-columns .sunday.expanded-3{
+  margin-bottom:82px;
+}
+
+#calendar.expanded .expanded-3:not(.expanded) .related-events.later{
+  top:101px;
+}
+
+#calendar.expanded .expanded-4{
+  height:140px !important;
+}
+
+#calendar.expanded .empty.expanded-4,
+#calendar.expanded #hidden-columns .expanded-4{
+  height:140px !important;
+}
+
+#calendar.expanded .empty.expanded-4:hover{
+  height:140px !important;
+}
+
+#calendar.expanded .group.expanded-4{
+  height:147px !important;
+}
+
+#calendar.expanded .groupend.expanded-4{
+  height:143px !important;
+}
+
+#calendar.expanded .groupstart.expanded-4{
+  height:142px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-4{
+  height:151px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-4{
+  height:146px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-4{
+  height:149px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-4{
+  height:145px !important;
+}
+
+#calendar.expanded .dates .expanded-4,
+#calendar.expanded #hidden-columns .showmore.expanded-4{
+  height:32px !important;
+  margin-bottom:112px;
+}
+
+#calendar.expanded .dates .sunday.expanded-4,
+#calendar.expanded #hidden-columns .sunday.expanded-4{
+  margin-bottom:118px;
+}
+
+#calendar.expanded .expanded-4:not(.expanded) .related-events.later{
+  top:137px;
+}
+
+#calendar.expanded .expanded-5{
+  height:176px !important;
+}
+
+#calendar.expanded .empty.expanded-5,
+#calendar.expanded #hidden-columns .expanded-5{
+  height:176px !important;
+}
+
+#calendar.expanded .empty.expanded-5:hover{
+  height:176px !important;
+}
+
+#calendar.expanded .group.expanded-5{
+  height:183px !important;
+}
+
+#calendar.expanded .groupend.expanded-5{
+  height:179px !important;
+}
+
+#calendar.expanded .groupstart.expanded-5{
+  height:178px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-5{
+  height:187px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-5{
+  height:182px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-5{
+  height:185px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-5{
+  height:181px !important;
+}
+
+#calendar.expanded .dates .expanded-5,
+#calendar.expanded #hidden-columns .showmore.expanded-5{
+  height:32px !important;
+  margin-bottom:148px;
+}
+
+#calendar.expanded .dates .sunday.expanded-5,
+#calendar.expanded #hidden-columns .sunday.expanded-5{
+  margin-bottom:154px;
+}
+
+#calendar.expanded .expanded-5:not(.expanded) .related-events.later{
+  top:173px;
+}
+
+#calendar.expanded .expanded-6{
+  height:212px !important;
+}
+
+#calendar.expanded .empty.expanded-6,
+#calendar.expanded #hidden-columns .expanded-6{
+  height:212px !important;
+}
+
+#calendar.expanded .empty.expanded-6:hover{
+  height:212px !important;
+}
+
+#calendar.expanded .group.expanded-6{
+  height:219px !important;
+}
+
+#calendar.expanded .groupend.expanded-6{
+  height:215px !important;
+}
+
+#calendar.expanded .groupstart.expanded-6{
+  height:214px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-6{
+  height:223px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-6{
+  height:218px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-6{
+  height:221px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-6{
+  height:217px !important;
+}
+
+#calendar.expanded .dates .expanded-6,
+#calendar.expanded #hidden-columns .showmore.expanded-6{
+  height:32px !important;
+  margin-bottom:184px;
+}
+
+#calendar.expanded .dates .sunday.expanded-6,
+#calendar.expanded #hidden-columns .sunday.expanded-6{
+  margin-bottom:190px;
+}
+
+#calendar.expanded .expanded-6:not(.expanded) .related-events.later{
+  top:209px;
+}
+
+#calendar.expanded .expanded-7{
+  height:248px !important;
+}
+
+#calendar.expanded .empty.expanded-7,
+#calendar.expanded #hidden-columns .expanded-7{
+  height:248px !important;
+}
+
+#calendar.expanded .empty.expanded-7:hover{
+  height:248px !important;
+}
+
+#calendar.expanded .group.expanded-7{
+  height:255px !important;
+}
+
+#calendar.expanded .groupend.expanded-7{
+  height:251px !important;
+}
+
+#calendar.expanded .groupstart.expanded-7{
+  height:250px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-7{
+  height:259px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-7{
+  height:254px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-7{
+  height:257px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-7{
+  height:253px !important;
+}
+
+#calendar.expanded .dates .expanded-7,
+#calendar.expanded #hidden-columns .showmore.expanded-7{
+  height:32px !important;
+  margin-bottom:220px;
+}
+
+#calendar.expanded .dates .sunday.expanded-7,
+#calendar.expanded #hidden-columns .sunday.expanded-7{
+  margin-bottom:226px;
+}
+
+#calendar.expanded .expanded-7:not(.expanded) .related-events.later{
+  top:245px;
+}
+
+#calendar.expanded .expanded-8{
+  height:284px !important;
+}
+
+#calendar.expanded .empty.expanded-8,
+#calendar.expanded #hidden-columns .expanded-8{
+  height:284px !important;
+}
+
+#calendar.expanded .empty.expanded-8:hover{
+  height:284px !important;
+}
+
+#calendar.expanded .group.expanded-8{
+  height:291px !important;
+}
+
+#calendar.expanded .groupend.expanded-8{
+  height:287px !important;
+}
+
+#calendar.expanded .groupstart.expanded-8{
+  height:286px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-8{
+  height:295px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-8{
+  height:290px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-8{
+  height:293px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-8{
+  height:289px !important;
+}
+
+#calendar.expanded .dates .expanded-8,
+#calendar.expanded #hidden-columns .showmore.expanded-8{
+  height:32px !important;
+  margin-bottom:256px;
+}
+
+#calendar.expanded .dates .sunday.expanded-8,
+#calendar.expanded #hidden-columns .sunday.expanded-8{
+  margin-bottom:262px;
+}
+
+#calendar.expanded .expanded-8:not(.expanded) .related-events.later{
+  top:281px;
+}
+
+#calendar.expanded .expanded-9{
+  height:320px !important;
+}
+
+#calendar.expanded .empty.expanded-9,
+#calendar.expanded #hidden-columns .expanded-9{
+  height:320px !important;
+}
+
+#calendar.expanded .empty.expanded-9:hover{
+  height:320px !important;
+}
+
+#calendar.expanded .group.expanded-9{
+  height:327px !important;
+}
+
+#calendar.expanded .groupend.expanded-9{
+  height:323px !important;
+}
+
+#calendar.expanded .groupstart.expanded-9{
+  height:322px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-9{
+  height:331px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-9{
+  height:326px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-9{
+  height:329px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-9{
+  height:325px !important;
+}
+
+#calendar.expanded .dates .expanded-9,
+#calendar.expanded #hidden-columns .showmore.expanded-9{
+  height:32px !important;
+  margin-bottom:292px;
+}
+
+#calendar.expanded .dates .sunday.expanded-9,
+#calendar.expanded #hidden-columns .sunday.expanded-9{
+  margin-bottom:298px;
+}
+
+#calendar.expanded .expanded-9:not(.expanded) .related-events.later{
+  top:317px;
+}
+
+#calendar.expanded .expanded-10{
+  height:356px !important;
+}
+
+#calendar.expanded .empty.expanded-10,
+#calendar.expanded #hidden-columns .expanded-10{
+  height:356px !important;
+}
+
+#calendar.expanded .empty.expanded-10:hover{
+  height:356px !important;
+}
+
+#calendar.expanded .group.expanded-10{
+  height:363px !important;
+}
+
+#calendar.expanded .groupend.expanded-10{
+  height:359px !important;
+}
+
+#calendar.expanded .groupstart.expanded-10{
+  height:358px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-10{
+  height:367px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-10{
+  height:362px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-10{
+  height:365px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-10{
+  height:361px !important;
+}
+
+#calendar.expanded .dates .expanded-10,
+#calendar.expanded #hidden-columns .showmore.expanded-10{
+  height:32px !important;
+  margin-bottom:328px;
+}
+
+#calendar.expanded .dates .sunday.expanded-10,
+#calendar.expanded #hidden-columns .sunday.expanded-10{
+  margin-bottom:334px;
+}
+
+#calendar.expanded .expanded-10:not(.expanded) .related-events.later{
+  top:353px;
+}
+
+#calendar.expanded .expanded-11{
+  height:392px !important;
+}
+
+#calendar.expanded .empty.expanded-11,
+#calendar.expanded #hidden-columns .expanded-11{
+  height:392px !important;
+}
+
+#calendar.expanded .empty.expanded-11:hover{
+  height:392px !important;
+}
+
+#calendar.expanded .group.expanded-11{
+  height:399px !important;
+}
+
+#calendar.expanded .groupend.expanded-11{
+  height:395px !important;
+}
+
+#calendar.expanded .groupstart.expanded-11{
+  height:394px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-11{
+  height:403px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-11{
+  height:398px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-11{
+  height:401px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-11{
+  height:397px !important;
+}
+
+#calendar.expanded .dates .expanded-11,
+#calendar.expanded #hidden-columns .showmore.expanded-11{
+  height:32px !important;
+  margin-bottom:364px;
+}
+
+#calendar.expanded .dates .sunday.expanded-11,
+#calendar.expanded #hidden-columns .sunday.expanded-11{
+  margin-bottom:370px;
+}
+
+#calendar.expanded .expanded-11:not(.expanded) .related-events.later{
+  top:389px;
+}
+
+#calendar.expanded .expanded-12{
+  height:428px !important;
+}
+
+#calendar.expanded .empty.expanded-12,
+#calendar.expanded #hidden-columns .expanded-12{
+  height:428px !important;
+}
+
+#calendar.expanded .empty.expanded-12:hover{
+  height:428px !important;
+}
+
+#calendar.expanded .group.expanded-12{
+  height:435px !important;
+}
+
+#calendar.expanded .groupend.expanded-12{
+  height:431px !important;
+}
+
+#calendar.expanded .groupstart.expanded-12{
+  height:430px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-12{
+  height:439px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-12{
+  height:434px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-12{
+  height:437px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-12{
+  height:433px !important;
+}
+
+#calendar.expanded .dates .expanded-12,
+#calendar.expanded #hidden-columns .showmore.expanded-12{
+  height:32px !important;
+  margin-bottom:400px;
+}
+
+#calendar.expanded .dates .sunday.expanded-12,
+#calendar.expanded #hidden-columns .sunday.expanded-12{
+  margin-bottom:406px;
+}
+
+#calendar.expanded .expanded-12:not(.expanded) .related-events.later{
+  top:425px;
+}
+
+#calendar.expanded .expanded-13{
+  height:464px !important;
+}
+
+#calendar.expanded .empty.expanded-13,
+#calendar.expanded #hidden-columns .expanded-13{
+  height:464px !important;
+}
+
+#calendar.expanded .empty.expanded-13:hover{
+  height:464px !important;
+}
+
+#calendar.expanded .group.expanded-13{
+  height:471px !important;
+}
+
+#calendar.expanded .groupend.expanded-13{
+  height:467px !important;
+}
+
+#calendar.expanded .groupstart.expanded-13{
+  height:466px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-13{
+  height:475px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-13{
+  height:470px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-13{
+  height:473px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-13{
+  height:469px !important;
+}
+
+#calendar.expanded .dates .expanded-13,
+#calendar.expanded #hidden-columns .showmore.expanded-13{
+  height:32px !important;
+  margin-bottom:436px;
+}
+
+#calendar.expanded .dates .sunday.expanded-13,
+#calendar.expanded #hidden-columns .sunday.expanded-13{
+  margin-bottom:442px;
+}
+
+#calendar.expanded .expanded-13:not(.expanded) .related-events.later{
+  top:461px;
+}
+
+#calendar.expanded .expanded-14{
+  height:500px !important;
+}
+
+#calendar.expanded .empty.expanded-14,
+#calendar.expanded #hidden-columns .expanded-14{
+  height:500px !important;
+}
+
+#calendar.expanded .empty.expanded-14:hover{
+  height:500px !important;
+}
+
+#calendar.expanded .group.expanded-14{
+  height:507px !important;
+}
+
+#calendar.expanded .groupend.expanded-14{
+  height:503px !important;
+}
+
+#calendar.expanded .groupstart.expanded-14{
+  height:502px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-14{
+  height:511px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-14{
+  height:506px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-14{
+  height:509px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-14{
+  height:505px !important;
+}
+
+#calendar.expanded .dates .expanded-14,
+#calendar.expanded #hidden-columns .showmore.expanded-14{
+  height:32px !important;
+  margin-bottom:472px;
+}
+
+#calendar.expanded .dates .sunday.expanded-14,
+#calendar.expanded #hidden-columns .sunday.expanded-14{
+  margin-bottom:478px;
+}
+
+#calendar.expanded .expanded-14:not(.expanded) .related-events.later{
+  top:497px;
+}
+
+#calendar.expanded .expanded-15{
+  height:536px !important;
+}
+
+#calendar.expanded .empty.expanded-15,
+#calendar.expanded #hidden-columns .expanded-15{
+  height:536px !important;
+}
+
+#calendar.expanded .empty.expanded-15:hover{
+  height:536px !important;
+}
+
+#calendar.expanded .group.expanded-15{
+  height:543px !important;
+}
+
+#calendar.expanded .groupend.expanded-15{
+  height:539px !important;
+}
+
+#calendar.expanded .groupstart.expanded-15{
+  height:538px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-15{
+  height:547px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-15{
+  height:542px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-15{
+  height:545px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-15{
+  height:541px !important;
+}
+
+#calendar.expanded .dates .expanded-15,
+#calendar.expanded #hidden-columns .showmore.expanded-15{
+  height:32px !important;
+  margin-bottom:508px;
+}
+
+#calendar.expanded .dates .sunday.expanded-15,
+#calendar.expanded #hidden-columns .sunday.expanded-15{
+  margin-bottom:514px;
+}
+
+#calendar.expanded .expanded-15:not(.expanded) .related-events.later{
+  top:533px;
+}
+
+#calendar.expanded .expanded-16{
+  height:572px !important;
+}
+
+#calendar.expanded .empty.expanded-16,
+#calendar.expanded #hidden-columns .expanded-16{
+  height:572px !important;
+}
+
+#calendar.expanded .empty.expanded-16:hover{
+  height:572px !important;
+}
+
+#calendar.expanded .group.expanded-16{
+  height:579px !important;
+}
+
+#calendar.expanded .groupend.expanded-16{
+  height:575px !important;
+}
+
+#calendar.expanded .groupstart.expanded-16{
+  height:574px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-16{
+  height:583px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-16{
+  height:578px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-16{
+  height:581px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-16{
+  height:577px !important;
+}
+
+#calendar.expanded .dates .expanded-16,
+#calendar.expanded #hidden-columns .showmore.expanded-16{
+  height:32px !important;
+  margin-bottom:544px;
+}
+
+#calendar.expanded .dates .sunday.expanded-16,
+#calendar.expanded #hidden-columns .sunday.expanded-16{
+  margin-bottom:550px;
+}
+
+#calendar.expanded .expanded-16:not(.expanded) .related-events.later{
+  top:569px;
+}
+
+#calendar.expanded .expanded-17{
+  height:608px !important;
+}
+
+#calendar.expanded .empty.expanded-17,
+#calendar.expanded #hidden-columns .expanded-17{
+  height:608px !important;
+}
+
+#calendar.expanded .empty.expanded-17:hover{
+  height:608px !important;
+}
+
+#calendar.expanded .group.expanded-17{
+  height:615px !important;
+}
+
+#calendar.expanded .groupend.expanded-17{
+  height:611px !important;
+}
+
+#calendar.expanded .groupstart.expanded-17{
+  height:610px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-17{
+  height:619px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-17{
+  height:614px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-17{
+  height:617px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-17{
+  height:613px !important;
+}
+
+#calendar.expanded .dates .expanded-17,
+#calendar.expanded #hidden-columns .showmore.expanded-17{
+  height:32px !important;
+  margin-bottom:580px;
+}
+
+#calendar.expanded .dates .sunday.expanded-17,
+#calendar.expanded #hidden-columns .sunday.expanded-17{
+  margin-bottom:586px;
+}
+
+#calendar.expanded .expanded-17:not(.expanded) .related-events.later{
+  top:605px;
+}
+
+#calendar.expanded .expanded-18{
+  height:644px !important;
+}
+
+#calendar.expanded .empty.expanded-18,
+#calendar.expanded #hidden-columns .expanded-18{
+  height:644px !important;
+}
+
+#calendar.expanded .empty.expanded-18:hover{
+  height:644px !important;
+}
+
+#calendar.expanded .group.expanded-18{
+  height:651px !important;
+}
+
+#calendar.expanded .groupend.expanded-18{
+  height:647px !important;
+}
+
+#calendar.expanded .groupstart.expanded-18{
+  height:646px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-18{
+  height:655px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-18{
+  height:650px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-18{
+  height:653px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-18{
+  height:649px !important;
+}
+
+#calendar.expanded .dates .expanded-18,
+#calendar.expanded #hidden-columns .showmore.expanded-18{
+  height:32px !important;
+  margin-bottom:616px;
+}
+
+#calendar.expanded .dates .sunday.expanded-18,
+#calendar.expanded #hidden-columns .sunday.expanded-18{
+  margin-bottom:622px;
+}
+
+#calendar.expanded .expanded-18:not(.expanded) .related-events.later{
+  top:641px;
+}
+
+#calendar.expanded .expanded-19{
+  height:680px !important;
+}
+
+#calendar.expanded .empty.expanded-19,
+#calendar.expanded #hidden-columns .expanded-19{
+  height:680px !important;
+}
+
+#calendar.expanded .empty.expanded-19:hover{
+  height:680px !important;
+}
+
+#calendar.expanded .group.expanded-19{
+  height:687px !important;
+}
+
+#calendar.expanded .groupend.expanded-19{
+  height:683px !important;
+}
+
+#calendar.expanded .groupstart.expanded-19{
+  height:682px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-19{
+  height:691px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-19{
+  height:686px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-19{
+  height:689px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-19{
+  height:685px !important;
+}
+
+#calendar.expanded .dates .expanded-19,
+#calendar.expanded #hidden-columns .showmore.expanded-19{
+  height:32px !important;
+  margin-bottom:652px;
+}
+
+#calendar.expanded .dates .sunday.expanded-19,
+#calendar.expanded #hidden-columns .sunday.expanded-19{
+  margin-bottom:658px;
+}
+
+#calendar.expanded .expanded-19:not(.expanded) .related-events.later{
+  top:677px;
+}
+
+#calendar.expanded .expanded-20{
+  height:716px !important;
+}
+
+#calendar.expanded .empty.expanded-20,
+#calendar.expanded #hidden-columns .expanded-20{
+  height:716px !important;
+}
+
+#calendar.expanded .empty.expanded-20:hover{
+  height:716px !important;
+}
+
+#calendar.expanded .group.expanded-20{
+  height:723px !important;
+}
+
+#calendar.expanded .groupend.expanded-20{
+  height:719px !important;
+}
+
+#calendar.expanded .groupstart.expanded-20{
+  height:718px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-20{
+  height:727px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-20{
+  height:722px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-20{
+  height:725px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-20{
+  height:721px !important;
+}
+
+#calendar.expanded .dates .expanded-20,
+#calendar.expanded #hidden-columns .showmore.expanded-20{
+  height:32px !important;
+  margin-bottom:688px;
+}
+
+#calendar.expanded .dates .sunday.expanded-20,
+#calendar.expanded #hidden-columns .sunday.expanded-20{
+  margin-bottom:694px;
+}
+
+#calendar.expanded .expanded-20:not(.expanded) .related-events.later{
+  top:713px;
+}
+
+#calendar.expanded .expanded-21{
+  height:752px !important;
+}
+
+#calendar.expanded .empty.expanded-21,
+#calendar.expanded #hidden-columns .expanded-21{
+  height:752px !important;
+}
+
+#calendar.expanded .empty.expanded-21:hover{
+  height:752px !important;
+}
+
+#calendar.expanded .group.expanded-21{
+  height:759px !important;
+}
+
+#calendar.expanded .groupend.expanded-21{
+  height:755px !important;
+}
+
+#calendar.expanded .groupstart.expanded-21{
+  height:754px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-21{
+  height:763px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-21{
+  height:758px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-21{
+  height:761px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-21{
+  height:757px !important;
+}
+
+#calendar.expanded .dates .expanded-21,
+#calendar.expanded #hidden-columns .showmore.expanded-21{
+  height:32px !important;
+  margin-bottom:724px;
+}
+
+#calendar.expanded .dates .sunday.expanded-21,
+#calendar.expanded #hidden-columns .sunday.expanded-21{
+  margin-bottom:730px;
+}
+
+#calendar.expanded .expanded-21:not(.expanded) .related-events.later{
+  top:749px;
+}
+
+#calendar.expanded .expanded-22{
+  height:788px !important;
+}
+
+#calendar.expanded .empty.expanded-22,
+#calendar.expanded #hidden-columns .expanded-22{
+  height:788px !important;
+}
+
+#calendar.expanded .empty.expanded-22:hover{
+  height:788px !important;
+}
+
+#calendar.expanded .group.expanded-22{
+  height:795px !important;
+}
+
+#calendar.expanded .groupend.expanded-22{
+  height:791px !important;
+}
+
+#calendar.expanded .groupstart.expanded-22{
+  height:790px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-22{
+  height:799px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-22{
+  height:794px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-22{
+  height:797px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-22{
+  height:793px !important;
+}
+
+#calendar.expanded .dates .expanded-22,
+#calendar.expanded #hidden-columns .showmore.expanded-22{
+  height:32px !important;
+  margin-bottom:760px;
+}
+
+#calendar.expanded .dates .sunday.expanded-22,
+#calendar.expanded #hidden-columns .sunday.expanded-22{
+  margin-bottom:766px;
+}
+
+#calendar.expanded .expanded-22:not(.expanded) .related-events.later{
+  top:785px;
+}
+
+#calendar.expanded .expanded-23{
+  height:824px !important;
+}
+
+#calendar.expanded .empty.expanded-23,
+#calendar.expanded #hidden-columns .expanded-23{
+  height:824px !important;
+}
+
+#calendar.expanded .empty.expanded-23:hover{
+  height:824px !important;
+}
+
+#calendar.expanded .group.expanded-23{
+  height:831px !important;
+}
+
+#calendar.expanded .groupend.expanded-23{
+  height:827px !important;
+}
+
+#calendar.expanded .groupstart.expanded-23{
+  height:826px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-23{
+  height:835px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-23{
+  height:830px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-23{
+  height:833px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-23{
+  height:829px !important;
+}
+
+#calendar.expanded .dates .expanded-23,
+#calendar.expanded #hidden-columns .showmore.expanded-23{
+  height:32px !important;
+  margin-bottom:796px;
+}
+
+#calendar.expanded .dates .sunday.expanded-23,
+#calendar.expanded #hidden-columns .sunday.expanded-23{
+  margin-bottom:802px;
+}
+
+#calendar.expanded .expanded-23:not(.expanded) .related-events.later{
+  top:821px;
+}
+
+#calendar.expanded .expanded-24{
+  height:860px !important;
+}
+
+#calendar.expanded .empty.expanded-24,
+#calendar.expanded #hidden-columns .expanded-24{
+  height:860px !important;
+}
+
+#calendar.expanded .empty.expanded-24:hover{
+  height:860px !important;
+}
+
+#calendar.expanded .group.expanded-24{
+  height:867px !important;
+}
+
+#calendar.expanded .groupend.expanded-24{
+  height:863px !important;
+}
+
+#calendar.expanded .groupstart.expanded-24{
+  height:862px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-24{
+  height:871px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-24{
+  height:866px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-24{
+  height:869px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-24{
+  height:865px !important;
+}
+
+#calendar.expanded .dates .expanded-24,
+#calendar.expanded #hidden-columns .showmore.expanded-24{
+  height:32px !important;
+  margin-bottom:832px;
+}
+
+#calendar.expanded .dates .sunday.expanded-24,
+#calendar.expanded #hidden-columns .sunday.expanded-24{
+  margin-bottom:838px;
+}
+
+#calendar.expanded .expanded-24:not(.expanded) .related-events.later{
+  top:857px;
+}
+
+#calendar.expanded .expanded-25{
+  height:896px !important;
+}
+
+#calendar.expanded .empty.expanded-25,
+#calendar.expanded #hidden-columns .expanded-25{
+  height:896px !important;
+}
+
+#calendar.expanded .empty.expanded-25:hover{
+  height:896px !important;
+}
+
+#calendar.expanded .group.expanded-25{
+  height:903px !important;
+}
+
+#calendar.expanded .groupend.expanded-25{
+  height:899px !important;
+}
+
+#calendar.expanded .groupstart.expanded-25{
+  height:898px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-25{
+  height:907px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-25{
+  height:902px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-25{
+  height:905px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-25{
+  height:901px !important;
+}
+
+#calendar.expanded .dates .expanded-25,
+#calendar.expanded #hidden-columns .showmore.expanded-25{
+  height:32px !important;
+  margin-bottom:868px;
+}
+
+#calendar.expanded .dates .sunday.expanded-25,
+#calendar.expanded #hidden-columns .sunday.expanded-25{
+  margin-bottom:874px;
+}
+
+#calendar.expanded .expanded-25:not(.expanded) .related-events.later{
+  top:893px;
+}
+
+#calendar.expanded .expanded-26{
+  height:932px !important;
+}
+
+#calendar.expanded .empty.expanded-26,
+#calendar.expanded #hidden-columns .expanded-26{
+  height:932px !important;
+}
+
+#calendar.expanded .empty.expanded-26:hover{
+  height:932px !important;
+}
+
+#calendar.expanded .group.expanded-26{
+  height:939px !important;
+}
+
+#calendar.expanded .groupend.expanded-26{
+  height:935px !important;
+}
+
+#calendar.expanded .groupstart.expanded-26{
+  height:934px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-26{
+  height:943px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-26{
+  height:938px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-26{
+  height:941px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-26{
+  height:937px !important;
+}
+
+#calendar.expanded .dates .expanded-26,
+#calendar.expanded #hidden-columns .showmore.expanded-26{
+  height:32px !important;
+  margin-bottom:904px;
+}
+
+#calendar.expanded .dates .sunday.expanded-26,
+#calendar.expanded #hidden-columns .sunday.expanded-26{
+  margin-bottom:910px;
+}
+
+#calendar.expanded .expanded-26:not(.expanded) .related-events.later{
+  top:929px;
+}
+
+#calendar.expanded .expanded-27{
+  height:968px !important;
+}
+
+#calendar.expanded .empty.expanded-27,
+#calendar.expanded #hidden-columns .expanded-27{
+  height:968px !important;
+}
+
+#calendar.expanded .empty.expanded-27:hover{
+  height:968px !important;
+}
+
+#calendar.expanded .group.expanded-27{
+  height:975px !important;
+}
+
+#calendar.expanded .groupend.expanded-27{
+  height:971px !important;
+}
+
+#calendar.expanded .groupstart.expanded-27{
+  height:970px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-27{
+  height:979px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-27{
+  height:974px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-27{
+  height:977px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-27{
+  height:973px !important;
+}
+
+#calendar.expanded .dates .expanded-27,
+#calendar.expanded #hidden-columns .showmore.expanded-27{
+  height:32px !important;
+  margin-bottom:940px;
+}
+
+#calendar.expanded .dates .sunday.expanded-27,
+#calendar.expanded #hidden-columns .sunday.expanded-27{
+  margin-bottom:946px;
+}
+
+#calendar.expanded .expanded-27:not(.expanded) .related-events.later{
+  top:965px;
+}
+
+#calendar.expanded .expanded-28{
+  height:1004px !important;
+}
+
+#calendar.expanded .empty.expanded-28,
+#calendar.expanded #hidden-columns .expanded-28{
+  height:1004px !important;
+}
+
+#calendar.expanded .empty.expanded-28:hover{
+  height:1004px !important;
+}
+
+#calendar.expanded .group.expanded-28{
+  height:1011px !important;
+}
+
+#calendar.expanded .groupend.expanded-28{
+  height:1007px !important;
+}
+
+#calendar.expanded .groupstart.expanded-28{
+  height:1006px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-28{
+  height:1015px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-28{
+  height:1010px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-28{
+  height:1013px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-28{
+  height:1009px !important;
+}
+
+#calendar.expanded .dates .expanded-28,
+#calendar.expanded #hidden-columns .showmore.expanded-28{
+  height:32px !important;
+  margin-bottom:976px;
+}
+
+#calendar.expanded .dates .sunday.expanded-28,
+#calendar.expanded #hidden-columns .sunday.expanded-28{
+  margin-bottom:982px;
+}
+
+#calendar.expanded .expanded-28:not(.expanded) .related-events.later{
+  top:1001px;
+}
+
+#calendar.expanded .expanded-29{
+  height:1040px !important;
+}
+
+#calendar.expanded .empty.expanded-29,
+#calendar.expanded #hidden-columns .expanded-29{
+  height:1040px !important;
+}
+
+#calendar.expanded .empty.expanded-29:hover{
+  height:1040px !important;
+}
+
+#calendar.expanded .group.expanded-29{
+  height:1047px !important;
+}
+
+#calendar.expanded .groupend.expanded-29{
+  height:1043px !important;
+}
+
+#calendar.expanded .groupstart.expanded-29{
+  height:1042px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-29{
+  height:1051px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-29{
+  height:1046px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-29{
+  height:1049px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-29{
+  height:1045px !important;
+}
+
+#calendar.expanded .dates .expanded-29,
+#calendar.expanded #hidden-columns .showmore.expanded-29{
+  height:32px !important;
+  margin-bottom:1012px;
+}
+
+#calendar.expanded .dates .sunday.expanded-29,
+#calendar.expanded #hidden-columns .sunday.expanded-29{
+  margin-bottom:1018px;
+}
+
+#calendar.expanded .expanded-29:not(.expanded) .related-events.later{
+  top:1037px;
+}
+
+#calendar.expanded .expanded-30{
+  height:1076px !important;
+}
+
+#calendar.expanded .empty.expanded-30,
+#calendar.expanded #hidden-columns .expanded-30{
+  height:1076px !important;
+}
+
+#calendar.expanded .empty.expanded-30:hover{
+  height:1076px !important;
+}
+
+#calendar.expanded .group.expanded-30{
+  height:1083px !important;
+}
+
+#calendar.expanded .groupend.expanded-30{
+  height:1079px !important;
+}
+
+#calendar.expanded .groupstart.expanded-30{
+  height:1078px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-30{
+  height:1087px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-30{
+  height:1082px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-30{
+  height:1085px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-30{
+  height:1081px !important;
+}
+
+#calendar.expanded .dates .expanded-30,
+#calendar.expanded #hidden-columns .showmore.expanded-30{
+  height:32px !important;
+  margin-bottom:1048px;
+}
+
+#calendar.expanded .dates .sunday.expanded-30,
+#calendar.expanded #hidden-columns .sunday.expanded-30{
+  margin-bottom:1054px;
+}
+
+#calendar.expanded .expanded-30:not(.expanded) .related-events.later{
+  top:1073px;
+}
+
+#calendar.expanded .expanded-31{
+  height:1112px !important;
+}
+
+#calendar.expanded .empty.expanded-31,
+#calendar.expanded #hidden-columns .expanded-31{
+  height:1112px !important;
+}
+
+#calendar.expanded .empty.expanded-31:hover{
+  height:1112px !important;
+}
+
+#calendar.expanded .group.expanded-31{
+  height:1119px !important;
+}
+
+#calendar.expanded .groupend.expanded-31{
+  height:1115px !important;
+}
+
+#calendar.expanded .groupstart.expanded-31{
+  height:1114px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-31{
+  height:1123px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-31{
+  height:1118px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-31{
+  height:1121px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-31{
+  height:1117px !important;
+}
+
+#calendar.expanded .dates .expanded-31,
+#calendar.expanded #hidden-columns .showmore.expanded-31{
+  height:32px !important;
+  margin-bottom:1084px;
+}
+
+#calendar.expanded .dates .sunday.expanded-31,
+#calendar.expanded #hidden-columns .sunday.expanded-31{
+  margin-bottom:1090px;
+}
+
+#calendar.expanded .expanded-31:not(.expanded) .related-events.later{
+  top:1109px;
+}
+
+#calendar.expanded .expanded-32{
+  height:1148px !important;
+}
+
+#calendar.expanded .empty.expanded-32,
+#calendar.expanded #hidden-columns .expanded-32{
+  height:1148px !important;
+}
+
+#calendar.expanded .empty.expanded-32:hover{
+  height:1148px !important;
+}
+
+#calendar.expanded .group.expanded-32{
+  height:1155px !important;
+}
+
+#calendar.expanded .groupend.expanded-32{
+  height:1151px !important;
+}
+
+#calendar.expanded .groupstart.expanded-32{
+  height:1150px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-32{
+  height:1159px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-32{
+  height:1154px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-32{
+  height:1157px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-32{
+  height:1153px !important;
+}
+
+#calendar.expanded .dates .expanded-32,
+#calendar.expanded #hidden-columns .showmore.expanded-32{
+  height:32px !important;
+  margin-bottom:1120px;
+}
+
+#calendar.expanded .dates .sunday.expanded-32,
+#calendar.expanded #hidden-columns .sunday.expanded-32{
+  margin-bottom:1126px;
+}
+
+#calendar.expanded .expanded-32:not(.expanded) .related-events.later{
+  top:1145px;
+}
+
+#calendar.expanded .expanded-33{
+  height:1184px !important;
+}
+
+#calendar.expanded .empty.expanded-33,
+#calendar.expanded #hidden-columns .expanded-33{
+  height:1184px !important;
+}
+
+#calendar.expanded .empty.expanded-33:hover{
+  height:1184px !important;
+}
+
+#calendar.expanded .group.expanded-33{
+  height:1191px !important;
+}
+
+#calendar.expanded .groupend.expanded-33{
+  height:1187px !important;
+}
+
+#calendar.expanded .groupstart.expanded-33{
+  height:1186px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-33{
+  height:1195px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-33{
+  height:1190px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-33{
+  height:1193px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-33{
+  height:1189px !important;
+}
+
+#calendar.expanded .dates .expanded-33,
+#calendar.expanded #hidden-columns .showmore.expanded-33{
+  height:32px !important;
+  margin-bottom:1156px;
+}
+
+#calendar.expanded .dates .sunday.expanded-33,
+#calendar.expanded #hidden-columns .sunday.expanded-33{
+  margin-bottom:1162px;
+}
+
+#calendar.expanded .expanded-33:not(.expanded) .related-events.later{
+  top:1181px;
+}
+
+#calendar.expanded .expanded-34{
+  height:1220px !important;
+}
+
+#calendar.expanded .empty.expanded-34,
+#calendar.expanded #hidden-columns .expanded-34{
+  height:1220px !important;
+}
+
+#calendar.expanded .empty.expanded-34:hover{
+  height:1220px !important;
+}
+
+#calendar.expanded .group.expanded-34{
+  height:1227px !important;
+}
+
+#calendar.expanded .groupend.expanded-34{
+  height:1223px !important;
+}
+
+#calendar.expanded .groupstart.expanded-34{
+  height:1222px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-34{
+  height:1231px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-34{
+  height:1226px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-34{
+  height:1229px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-34{
+  height:1225px !important;
+}
+
+#calendar.expanded .dates .expanded-34,
+#calendar.expanded #hidden-columns .showmore.expanded-34{
+  height:32px !important;
+  margin-bottom:1192px;
+}
+
+#calendar.expanded .dates .sunday.expanded-34,
+#calendar.expanded #hidden-columns .sunday.expanded-34{
+  margin-bottom:1198px;
+}
+
+#calendar.expanded .expanded-34:not(.expanded) .related-events.later{
+  top:1217px;
+}
+
+#calendar.expanded .expanded-35{
+  height:1256px !important;
+}
+
+#calendar.expanded .empty.expanded-35,
+#calendar.expanded #hidden-columns .expanded-35{
+  height:1256px !important;
+}
+
+#calendar.expanded .empty.expanded-35:hover{
+  height:1256px !important;
+}
+
+#calendar.expanded .group.expanded-35{
+  height:1263px !important;
+}
+
+#calendar.expanded .groupend.expanded-35{
+  height:1259px !important;
+}
+
+#calendar.expanded .groupstart.expanded-35{
+  height:1258px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-35{
+  height:1267px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-35{
+  height:1262px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-35{
+  height:1265px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-35{
+  height:1261px !important;
+}
+
+#calendar.expanded .dates .expanded-35,
+#calendar.expanded #hidden-columns .showmore.expanded-35{
+  height:32px !important;
+  margin-bottom:1228px;
+}
+
+#calendar.expanded .dates .sunday.expanded-35,
+#calendar.expanded #hidden-columns .sunday.expanded-35{
+  margin-bottom:1234px;
+}
+
+#calendar.expanded .expanded-35:not(.expanded) .related-events.later{
+  top:1253px;
+}
+
+#calendar.expanded .expanded-36{
+  height:1292px !important;
+}
+
+#calendar.expanded .empty.expanded-36,
+#calendar.expanded #hidden-columns .expanded-36{
+  height:1292px !important;
+}
+
+#calendar.expanded .empty.expanded-36:hover{
+  height:1292px !important;
+}
+
+#calendar.expanded .group.expanded-36{
+  height:1299px !important;
+}
+
+#calendar.expanded .groupend.expanded-36{
+  height:1295px !important;
+}
+
+#calendar.expanded .groupstart.expanded-36{
+  height:1294px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-36{
+  height:1303px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-36{
+  height:1298px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-36{
+  height:1301px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-36{
+  height:1297px !important;
+}
+
+#calendar.expanded .dates .expanded-36,
+#calendar.expanded #hidden-columns .showmore.expanded-36{
+  height:32px !important;
+  margin-bottom:1264px;
+}
+
+#calendar.expanded .dates .sunday.expanded-36,
+#calendar.expanded #hidden-columns .sunday.expanded-36{
+  margin-bottom:1270px;
+}
+
+#calendar.expanded .expanded-36:not(.expanded) .related-events.later{
+  top:1289px;
+}
+
+#calendar.expanded .expanded-37{
+  height:1328px !important;
+}
+
+#calendar.expanded .empty.expanded-37,
+#calendar.expanded #hidden-columns .expanded-37{
+  height:1328px !important;
+}
+
+#calendar.expanded .empty.expanded-37:hover{
+  height:1328px !important;
+}
+
+#calendar.expanded .group.expanded-37{
+  height:1335px !important;
+}
+
+#calendar.expanded .groupend.expanded-37{
+  height:1331px !important;
+}
+
+#calendar.expanded .groupstart.expanded-37{
+  height:1330px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-37{
+  height:1339px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-37{
+  height:1334px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-37{
+  height:1337px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-37{
+  height:1333px !important;
+}
+
+#calendar.expanded .dates .expanded-37,
+#calendar.expanded #hidden-columns .showmore.expanded-37{
+  height:32px !important;
+  margin-bottom:1300px;
+}
+
+#calendar.expanded .dates .sunday.expanded-37,
+#calendar.expanded #hidden-columns .sunday.expanded-37{
+  margin-bottom:1306px;
+}
+
+#calendar.expanded .expanded-37:not(.expanded) .related-events.later{
+  top:1325px;
+}
+
+#calendar.expanded .expanded-38{
+  height:1364px !important;
+}
+
+#calendar.expanded .empty.expanded-38,
+#calendar.expanded #hidden-columns .expanded-38{
+  height:1364px !important;
+}
+
+#calendar.expanded .empty.expanded-38:hover{
+  height:1364px !important;
+}
+
+#calendar.expanded .group.expanded-38{
+  height:1371px !important;
+}
+
+#calendar.expanded .groupend.expanded-38{
+  height:1367px !important;
+}
+
+#calendar.expanded .groupstart.expanded-38{
+  height:1366px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-38{
+  height:1375px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-38{
+  height:1370px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-38{
+  height:1373px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-38{
+  height:1369px !important;
+}
+
+#calendar.expanded .dates .expanded-38,
+#calendar.expanded #hidden-columns .showmore.expanded-38{
+  height:32px !important;
+  margin-bottom:1336px;
+}
+
+#calendar.expanded .dates .sunday.expanded-38,
+#calendar.expanded #hidden-columns .sunday.expanded-38{
+  margin-bottom:1342px;
+}
+
+#calendar.expanded .expanded-38:not(.expanded) .related-events.later{
+  top:1361px;
+}
+
+#calendar.expanded .expanded-39{
+  height:1400px !important;
+}
+
+#calendar.expanded .empty.expanded-39,
+#calendar.expanded #hidden-columns .expanded-39{
+  height:1400px !important;
+}
+
+#calendar.expanded .empty.expanded-39:hover{
+  height:1400px !important;
+}
+
+#calendar.expanded .group.expanded-39{
+  height:1407px !important;
+}
+
+#calendar.expanded .groupend.expanded-39{
+  height:1403px !important;
+}
+
+#calendar.expanded .groupstart.expanded-39{
+  height:1402px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-39{
+  height:1411px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-39{
+  height:1406px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-39{
+  height:1409px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-39{
+  height:1405px !important;
+}
+
+#calendar.expanded .dates .expanded-39,
+#calendar.expanded #hidden-columns .showmore.expanded-39{
+  height:32px !important;
+  margin-bottom:1372px;
+}
+
+#calendar.expanded .dates .sunday.expanded-39,
+#calendar.expanded #hidden-columns .sunday.expanded-39{
+  margin-bottom:1378px;
+}
+
+#calendar.expanded .expanded-39:not(.expanded) .related-events.later{
+  top:1397px;
+}
+
+#calendar.expanded .expanded-40{
+  height:1436px !important;
+}
+
+#calendar.expanded .empty.expanded-40,
+#calendar.expanded #hidden-columns .expanded-40{
+  height:1436px !important;
+}
+
+#calendar.expanded .empty.expanded-40:hover{
+  height:1436px !important;
+}
+
+#calendar.expanded .group.expanded-40{
+  height:1443px !important;
+}
+
+#calendar.expanded .groupend.expanded-40{
+  height:1439px !important;
+}
+
+#calendar.expanded .groupstart.expanded-40{
+  height:1438px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-40{
+  height:1447px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-40{
+  height:1442px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-40{
+  height:1445px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-40{
+  height:1441px !important;
+}
+
+#calendar.expanded .dates .expanded-40,
+#calendar.expanded #hidden-columns .showmore.expanded-40{
+  height:32px !important;
+  margin-bottom:1408px;
+}
+
+#calendar.expanded .dates .sunday.expanded-40,
+#calendar.expanded #hidden-columns .sunday.expanded-40{
+  margin-bottom:1414px;
+}
+
+#calendar.expanded .expanded-40:not(.expanded) .related-events.later{
+  top:1433px;
+}
+
+#calendar.expanded .expanded-41{
+  height:1472px !important;
+}
+
+#calendar.expanded .empty.expanded-41,
+#calendar.expanded #hidden-columns .expanded-41{
+  height:1472px !important;
+}
+
+#calendar.expanded .empty.expanded-41:hover{
+  height:1472px !important;
+}
+
+#calendar.expanded .group.expanded-41{
+  height:1479px !important;
+}
+
+#calendar.expanded .groupend.expanded-41{
+  height:1475px !important;
+}
+
+#calendar.expanded .groupstart.expanded-41{
+  height:1474px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-41{
+  height:1483px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-41{
+  height:1478px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-41{
+  height:1481px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-41{
+  height:1477px !important;
+}
+
+#calendar.expanded .dates .expanded-41,
+#calendar.expanded #hidden-columns .showmore.expanded-41{
+  height:32px !important;
+  margin-bottom:1444px;
+}
+
+#calendar.expanded .dates .sunday.expanded-41,
+#calendar.expanded #hidden-columns .sunday.expanded-41{
+  margin-bottom:1450px;
+}
+
+#calendar.expanded .expanded-41:not(.expanded) .related-events.later{
+  top:1469px;
+}
+
+#calendar.expanded .expanded-42{
+  height:1508px !important;
+}
+
+#calendar.expanded .empty.expanded-42,
+#calendar.expanded #hidden-columns .expanded-42{
+  height:1508px !important;
+}
+
+#calendar.expanded .empty.expanded-42:hover{
+  height:1508px !important;
+}
+
+#calendar.expanded .group.expanded-42{
+  height:1515px !important;
+}
+
+#calendar.expanded .groupend.expanded-42{
+  height:1511px !important;
+}
+
+#calendar.expanded .groupstart.expanded-42{
+  height:1510px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-42{
+  height:1519px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-42{
+  height:1514px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-42{
+  height:1517px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-42{
+  height:1513px !important;
+}
+
+#calendar.expanded .dates .expanded-42,
+#calendar.expanded #hidden-columns .showmore.expanded-42{
+  height:32px !important;
+  margin-bottom:1480px;
+}
+
+#calendar.expanded .dates .sunday.expanded-42,
+#calendar.expanded #hidden-columns .sunday.expanded-42{
+  margin-bottom:1486px;
+}
+
+#calendar.expanded .expanded-42:not(.expanded) .related-events.later{
+  top:1505px;
+}
+
+#calendar.expanded .expanded-43{
+  height:1544px !important;
+}
+
+#calendar.expanded .empty.expanded-43,
+#calendar.expanded #hidden-columns .expanded-43{
+  height:1544px !important;
+}
+
+#calendar.expanded .empty.expanded-43:hover{
+  height:1544px !important;
+}
+
+#calendar.expanded .group.expanded-43{
+  height:1551px !important;
+}
+
+#calendar.expanded .groupend.expanded-43{
+  height:1547px !important;
+}
+
+#calendar.expanded .groupstart.expanded-43{
+  height:1546px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-43{
+  height:1555px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-43{
+  height:1550px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-43{
+  height:1553px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-43{
+  height:1549px !important;
+}
+
+#calendar.expanded .dates .expanded-43,
+#calendar.expanded #hidden-columns .showmore.expanded-43{
+  height:32px !important;
+  margin-bottom:1516px;
+}
+
+#calendar.expanded .dates .sunday.expanded-43,
+#calendar.expanded #hidden-columns .sunday.expanded-43{
+  margin-bottom:1522px;
+}
+
+#calendar.expanded .expanded-43:not(.expanded) .related-events.later{
+  top:1541px;
+}
+
+#calendar.expanded .expanded-44{
+  height:1580px !important;
+}
+
+#calendar.expanded .empty.expanded-44,
+#calendar.expanded #hidden-columns .expanded-44{
+  height:1580px !important;
+}
+
+#calendar.expanded .empty.expanded-44:hover{
+  height:1580px !important;
+}
+
+#calendar.expanded .group.expanded-44{
+  height:1587px !important;
+}
+
+#calendar.expanded .groupend.expanded-44{
+  height:1583px !important;
+}
+
+#calendar.expanded .groupstart.expanded-44{
+  height:1582px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-44{
+  height:1591px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-44{
+  height:1586px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-44{
+  height:1589px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-44{
+  height:1585px !important;
+}
+
+#calendar.expanded .dates .expanded-44,
+#calendar.expanded #hidden-columns .showmore.expanded-44{
+  height:32px !important;
+  margin-bottom:1552px;
+}
+
+#calendar.expanded .dates .sunday.expanded-44,
+#calendar.expanded #hidden-columns .sunday.expanded-44{
+  margin-bottom:1558px;
+}
+
+#calendar.expanded .expanded-44:not(.expanded) .related-events.later{
+  top:1577px;
+}
+
+#calendar.expanded .expanded-45{
+  height:1616px !important;
+}
+
+#calendar.expanded .empty.expanded-45,
+#calendar.expanded #hidden-columns .expanded-45{
+  height:1616px !important;
+}
+
+#calendar.expanded .empty.expanded-45:hover{
+  height:1616px !important;
+}
+
+#calendar.expanded .group.expanded-45{
+  height:1623px !important;
+}
+
+#calendar.expanded .groupend.expanded-45{
+  height:1619px !important;
+}
+
+#calendar.expanded .groupstart.expanded-45{
+  height:1618px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-45{
+  height:1627px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-45{
+  height:1622px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-45{
+  height:1625px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-45{
+  height:1621px !important;
+}
+
+#calendar.expanded .dates .expanded-45,
+#calendar.expanded #hidden-columns .showmore.expanded-45{
+  height:32px !important;
+  margin-bottom:1588px;
+}
+
+#calendar.expanded .dates .sunday.expanded-45,
+#calendar.expanded #hidden-columns .sunday.expanded-45{
+  margin-bottom:1594px;
+}
+
+#calendar.expanded .expanded-45:not(.expanded) .related-events.later{
+  top:1613px;
+}
+
+#calendar.expanded .expanded-46{
+  height:1652px !important;
+}
+
+#calendar.expanded .empty.expanded-46,
+#calendar.expanded #hidden-columns .expanded-46{
+  height:1652px !important;
+}
+
+#calendar.expanded .empty.expanded-46:hover{
+  height:1652px !important;
+}
+
+#calendar.expanded .group.expanded-46{
+  height:1659px !important;
+}
+
+#calendar.expanded .groupend.expanded-46{
+  height:1655px !important;
+}
+
+#calendar.expanded .groupstart.expanded-46{
+  height:1654px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-46{
+  height:1663px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-46{
+  height:1658px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-46{
+  height:1661px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-46{
+  height:1657px !important;
+}
+
+#calendar.expanded .dates .expanded-46,
+#calendar.expanded #hidden-columns .showmore.expanded-46{
+  height:32px !important;
+  margin-bottom:1624px;
+}
+
+#calendar.expanded .dates .sunday.expanded-46,
+#calendar.expanded #hidden-columns .sunday.expanded-46{
+  margin-bottom:1630px;
+}
+
+#calendar.expanded .expanded-46:not(.expanded) .related-events.later{
+  top:1649px;
+}
+
+#calendar.expanded .expanded-47{
+  height:1688px !important;
+}
+
+#calendar.expanded .empty.expanded-47,
+#calendar.expanded #hidden-columns .expanded-47{
+  height:1688px !important;
+}
+
+#calendar.expanded .empty.expanded-47:hover{
+  height:1688px !important;
+}
+
+#calendar.expanded .group.expanded-47{
+  height:1695px !important;
+}
+
+#calendar.expanded .groupend.expanded-47{
+  height:1691px !important;
+}
+
+#calendar.expanded .groupstart.expanded-47{
+  height:1690px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-47{
+  height:1699px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-47{
+  height:1694px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-47{
+  height:1697px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-47{
+  height:1693px !important;
+}
+
+#calendar.expanded .dates .expanded-47,
+#calendar.expanded #hidden-columns .showmore.expanded-47{
+  height:32px !important;
+  margin-bottom:1660px;
+}
+
+#calendar.expanded .dates .sunday.expanded-47,
+#calendar.expanded #hidden-columns .sunday.expanded-47{
+  margin-bottom:1666px;
+}
+
+#calendar.expanded .expanded-47:not(.expanded) .related-events.later{
+  top:1685px;
+}
+
+#calendar.expanded .expanded-48{
+  height:1724px !important;
+}
+
+#calendar.expanded .empty.expanded-48,
+#calendar.expanded #hidden-columns .expanded-48{
+  height:1724px !important;
+}
+
+#calendar.expanded .empty.expanded-48:hover{
+  height:1724px !important;
+}
+
+#calendar.expanded .group.expanded-48{
+  height:1731px !important;
+}
+
+#calendar.expanded .groupend.expanded-48{
+  height:1727px !important;
+}
+
+#calendar.expanded .groupstart.expanded-48{
+  height:1726px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-48{
+  height:1735px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-48{
+  height:1730px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-48{
+  height:1733px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-48{
+  height:1729px !important;
+}
+
+#calendar.expanded .dates .expanded-48,
+#calendar.expanded #hidden-columns .showmore.expanded-48{
+  height:32px !important;
+  margin-bottom:1696px;
+}
+
+#calendar.expanded .dates .sunday.expanded-48,
+#calendar.expanded #hidden-columns .sunday.expanded-48{
+  margin-bottom:1702px;
+}
+
+#calendar.expanded .expanded-48:not(.expanded) .related-events.later{
+  top:1721px;
+}
+
+#calendar.expanded .expanded-49{
+  height:1760px !important;
+}
+
+#calendar.expanded .empty.expanded-49,
+#calendar.expanded #hidden-columns .expanded-49{
+  height:1760px !important;
+}
+
+#calendar.expanded .empty.expanded-49:hover{
+  height:1760px !important;
+}
+
+#calendar.expanded .group.expanded-49{
+  height:1767px !important;
+}
+
+#calendar.expanded .groupend.expanded-49{
+  height:1763px !important;
+}
+
+#calendar.expanded .groupstart.expanded-49{
+  height:1762px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-49{
+  height:1771px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-49{
+  height:1766px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-49{
+  height:1769px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-49{
+  height:1765px !important;
+}
+
+#calendar.expanded .dates .expanded-49,
+#calendar.expanded #hidden-columns .showmore.expanded-49{
+  height:32px !important;
+  margin-bottom:1732px;
+}
+
+#calendar.expanded .dates .sunday.expanded-49,
+#calendar.expanded #hidden-columns .sunday.expanded-49{
+  margin-bottom:1738px;
+}
+
+#calendar.expanded .expanded-49:not(.expanded) .related-events.later{
+  top:1757px;
+}
+
+#calendar.expanded .expanded-50{
+  height:1796px !important;
+}
+
+#calendar.expanded .empty.expanded-50,
+#calendar.expanded #hidden-columns .expanded-50{
+  height:1796px !important;
+}
+
+#calendar.expanded .empty.expanded-50:hover{
+  height:1796px !important;
+}
+
+#calendar.expanded .group.expanded-50{
+  height:1803px !important;
+}
+
+#calendar.expanded .groupend.expanded-50{
+  height:1799px !important;
+}
+
+#calendar.expanded .groupstart.expanded-50{
+  height:1798px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-50{
+  height:1807px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-50{
+  height:1802px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-50{
+  height:1805px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-50{
+  height:1801px !important;
+}
+
+#calendar.expanded .dates .expanded-50,
+#calendar.expanded #hidden-columns .showmore.expanded-50{
+  height:32px !important;
+  margin-bottom:1768px;
+}
+
+#calendar.expanded .dates .sunday.expanded-50,
+#calendar.expanded #hidden-columns .sunday.expanded-50{
+  margin-bottom:1774px;
+}
+
+#calendar.expanded .expanded-50:not(.expanded) .related-events.later{
+  top:1793px;
+}
+
+#calendar.expanded .expanded-51{
+  height:1832px !important;
+}
+
+#calendar.expanded .empty.expanded-51,
+#calendar.expanded #hidden-columns .expanded-51{
+  height:1832px !important;
+}
+
+#calendar.expanded .empty.expanded-51:hover{
+  height:1832px !important;
+}
+
+#calendar.expanded .group.expanded-51{
+  height:1839px !important;
+}
+
+#calendar.expanded .groupend.expanded-51{
+  height:1835px !important;
+}
+
+#calendar.expanded .groupstart.expanded-51{
+  height:1834px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-51{
+  height:1843px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-51{
+  height:1838px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-51{
+  height:1841px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-51{
+  height:1837px !important;
+}
+
+#calendar.expanded .dates .expanded-51,
+#calendar.expanded #hidden-columns .showmore.expanded-51{
+  height:32px !important;
+  margin-bottom:1804px;
+}
+
+#calendar.expanded .dates .sunday.expanded-51,
+#calendar.expanded #hidden-columns .sunday.expanded-51{
+  margin-bottom:1810px;
+}
+
+#calendar.expanded .expanded-51:not(.expanded) .related-events.later{
+  top:1829px;
+}
+
+#calendar.expanded .expanded-52{
+  height:1868px !important;
+}
+
+#calendar.expanded .empty.expanded-52,
+#calendar.expanded #hidden-columns .expanded-52{
+  height:1868px !important;
+}
+
+#calendar.expanded .empty.expanded-52:hover{
+  height:1868px !important;
+}
+
+#calendar.expanded .group.expanded-52{
+  height:1875px !important;
+}
+
+#calendar.expanded .groupend.expanded-52{
+  height:1871px !important;
+}
+
+#calendar.expanded .groupstart.expanded-52{
+  height:1870px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-52{
+  height:1879px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-52{
+  height:1874px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-52{
+  height:1877px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-52{
+  height:1873px !important;
+}
+
+#calendar.expanded .dates .expanded-52,
+#calendar.expanded #hidden-columns .showmore.expanded-52{
+  height:32px !important;
+  margin-bottom:1840px;
+}
+
+#calendar.expanded .dates .sunday.expanded-52,
+#calendar.expanded #hidden-columns .sunday.expanded-52{
+  margin-bottom:1846px;
+}
+
+#calendar.expanded .expanded-52:not(.expanded) .related-events.later{
+  top:1865px;
+}
+
+#calendar.expanded .expanded-53{
+  height:1904px !important;
+}
+
+#calendar.expanded .empty.expanded-53,
+#calendar.expanded #hidden-columns .expanded-53{
+  height:1904px !important;
+}
+
+#calendar.expanded .empty.expanded-53:hover{
+  height:1904px !important;
+}
+
+#calendar.expanded .group.expanded-53{
+  height:1911px !important;
+}
+
+#calendar.expanded .groupend.expanded-53{
+  height:1907px !important;
+}
+
+#calendar.expanded .groupstart.expanded-53{
+  height:1906px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-53{
+  height:1915px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-53{
+  height:1910px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-53{
+  height:1913px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-53{
+  height:1909px !important;
+}
+
+#calendar.expanded .dates .expanded-53,
+#calendar.expanded #hidden-columns .showmore.expanded-53{
+  height:32px !important;
+  margin-bottom:1876px;
+}
+
+#calendar.expanded .dates .sunday.expanded-53,
+#calendar.expanded #hidden-columns .sunday.expanded-53{
+  margin-bottom:1882px;
+}
+
+#calendar.expanded .expanded-53:not(.expanded) .related-events.later{
+  top:1901px;
+}
+
+#calendar.expanded .expanded-54{
+  height:1940px !important;
+}
+
+#calendar.expanded .empty.expanded-54,
+#calendar.expanded #hidden-columns .expanded-54{
+  height:1940px !important;
+}
+
+#calendar.expanded .empty.expanded-54:hover{
+  height:1940px !important;
+}
+
+#calendar.expanded .group.expanded-54{
+  height:1947px !important;
+}
+
+#calendar.expanded .groupend.expanded-54{
+  height:1943px !important;
+}
+
+#calendar.expanded .groupstart.expanded-54{
+  height:1942px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-54{
+  height:1951px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-54{
+  height:1946px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-54{
+  height:1949px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-54{
+  height:1945px !important;
+}
+
+#calendar.expanded .dates .expanded-54,
+#calendar.expanded #hidden-columns .showmore.expanded-54{
+  height:32px !important;
+  margin-bottom:1912px;
+}
+
+#calendar.expanded .dates .sunday.expanded-54,
+#calendar.expanded #hidden-columns .sunday.expanded-54{
+  margin-bottom:1918px;
+}
+
+#calendar.expanded .expanded-54:not(.expanded) .related-events.later{
+  top:1937px;
+}
+
+#calendar.expanded .expanded-55{
+  height:1976px !important;
+}
+
+#calendar.expanded .empty.expanded-55,
+#calendar.expanded #hidden-columns .expanded-55{
+  height:1976px !important;
+}
+
+#calendar.expanded .empty.expanded-55:hover{
+  height:1976px !important;
+}
+
+#calendar.expanded .group.expanded-55{
+  height:1983px !important;
+}
+
+#calendar.expanded .groupend.expanded-55{
+  height:1979px !important;
+}
+
+#calendar.expanded .groupstart.expanded-55{
+  height:1978px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-55{
+  height:1987px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-55{
+  height:1982px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-55{
+  height:1985px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-55{
+  height:1981px !important;
+}
+
+#calendar.expanded .dates .expanded-55,
+#calendar.expanded #hidden-columns .showmore.expanded-55{
+  height:32px !important;
+  margin-bottom:1948px;
+}
+
+#calendar.expanded .dates .sunday.expanded-55,
+#calendar.expanded #hidden-columns .sunday.expanded-55{
+  margin-bottom:1954px;
+}
+
+#calendar.expanded .expanded-55:not(.expanded) .related-events.later{
+  top:1973px;
+}
+
+#calendar.expanded .expanded-56{
+  height:2012px !important;
+}
+
+#calendar.expanded .empty.expanded-56,
+#calendar.expanded #hidden-columns .expanded-56{
+  height:2012px !important;
+}
+
+#calendar.expanded .empty.expanded-56:hover{
+  height:2012px !important;
+}
+
+#calendar.expanded .group.expanded-56{
+  height:2019px !important;
+}
+
+#calendar.expanded .groupend.expanded-56{
+  height:2015px !important;
+}
+
+#calendar.expanded .groupstart.expanded-56{
+  height:2014px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-56{
+  height:2023px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-56{
+  height:2018px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-56{
+  height:2021px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-56{
+  height:2017px !important;
+}
+
+#calendar.expanded .dates .expanded-56,
+#calendar.expanded #hidden-columns .showmore.expanded-56{
+  height:32px !important;
+  margin-bottom:1984px;
+}
+
+#calendar.expanded .dates .sunday.expanded-56,
+#calendar.expanded #hidden-columns .sunday.expanded-56{
+  margin-bottom:1990px;
+}
+
+#calendar.expanded .expanded-56:not(.expanded) .related-events.later{
+  top:2009px;
+}
+
+#calendar.expanded .expanded-57{
+  height:2048px !important;
+}
+
+#calendar.expanded .empty.expanded-57,
+#calendar.expanded #hidden-columns .expanded-57{
+  height:2048px !important;
+}
+
+#calendar.expanded .empty.expanded-57:hover{
+  height:2048px !important;
+}
+
+#calendar.expanded .group.expanded-57{
+  height:2055px !important;
+}
+
+#calendar.expanded .groupend.expanded-57{
+  height:2051px !important;
+}
+
+#calendar.expanded .groupstart.expanded-57{
+  height:2050px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-57{
+  height:2059px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-57{
+  height:2054px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-57{
+  height:2057px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-57{
+  height:2053px !important;
+}
+
+#calendar.expanded .dates .expanded-57,
+#calendar.expanded #hidden-columns .showmore.expanded-57{
+  height:32px !important;
+  margin-bottom:2020px;
+}
+
+#calendar.expanded .dates .sunday.expanded-57,
+#calendar.expanded #hidden-columns .sunday.expanded-57{
+  margin-bottom:2026px;
+}
+
+#calendar.expanded .expanded-57:not(.expanded) .related-events.later{
+  top:2045px;
+}
+
+#calendar.expanded .expanded-58{
+  height:2084px !important;
+}
+
+#calendar.expanded .empty.expanded-58,
+#calendar.expanded #hidden-columns .expanded-58{
+  height:2084px !important;
+}
+
+#calendar.expanded .empty.expanded-58:hover{
+  height:2084px !important;
+}
+
+#calendar.expanded .group.expanded-58{
+  height:2091px !important;
+}
+
+#calendar.expanded .groupend.expanded-58{
+  height:2087px !important;
+}
+
+#calendar.expanded .groupstart.expanded-58{
+  height:2086px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-58{
+  height:2095px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-58{
+  height:2090px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-58{
+  height:2093px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-58{
+  height:2089px !important;
+}
+
+#calendar.expanded .dates .expanded-58,
+#calendar.expanded #hidden-columns .showmore.expanded-58{
+  height:32px !important;
+  margin-bottom:2056px;
+}
+
+#calendar.expanded .dates .sunday.expanded-58,
+#calendar.expanded #hidden-columns .sunday.expanded-58{
+  margin-bottom:2062px;
+}
+
+#calendar.expanded .expanded-58:not(.expanded) .related-events.later{
+  top:2081px;
+}
+
+#calendar.expanded .expanded-59{
+  height:2120px !important;
+}
+
+#calendar.expanded .empty.expanded-59,
+#calendar.expanded #hidden-columns .expanded-59{
+  height:2120px !important;
+}
+
+#calendar.expanded .empty.expanded-59:hover{
+  height:2120px !important;
+}
+
+#calendar.expanded .group.expanded-59{
+  height:2127px !important;
+}
+
+#calendar.expanded .groupend.expanded-59{
+  height:2123px !important;
+}
+
+#calendar.expanded .groupstart.expanded-59{
+  height:2122px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-59{
+  height:2131px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-59{
+  height:2126px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-59{
+  height:2129px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-59{
+  height:2125px !important;
+}
+
+#calendar.expanded .dates .expanded-59,
+#calendar.expanded #hidden-columns .showmore.expanded-59{
+  height:32px !important;
+  margin-bottom:2092px;
+}
+
+#calendar.expanded .dates .sunday.expanded-59,
+#calendar.expanded #hidden-columns .sunday.expanded-59{
+  margin-bottom:2098px;
+}
+
+#calendar.expanded .expanded-59:not(.expanded) .related-events.later{
+  top:2117px;
+}
+
+#calendar.expanded .expanded-60{
+  height:2156px !important;
+}
+
+#calendar.expanded .empty.expanded-60,
+#calendar.expanded #hidden-columns .expanded-60{
+  height:2156px !important;
+}
+
+#calendar.expanded .empty.expanded-60:hover{
+  height:2156px !important;
+}
+
+#calendar.expanded .group.expanded-60{
+  height:2163px !important;
+}
+
+#calendar.expanded .groupend.expanded-60{
+  height:2159px !important;
+}
+
+#calendar.expanded .groupstart.expanded-60{
+  height:2158px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-60{
+  height:2167px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-60{
+  height:2162px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-60{
+  height:2165px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-60{
+  height:2161px !important;
+}
+
+#calendar.expanded .dates .expanded-60,
+#calendar.expanded #hidden-columns .showmore.expanded-60{
+  height:32px !important;
+  margin-bottom:2128px;
+}
+
+#calendar.expanded .dates .sunday.expanded-60,
+#calendar.expanded #hidden-columns .sunday.expanded-60{
+  margin-bottom:2134px;
+}
+
+#calendar.expanded .expanded-60:not(.expanded) .related-events.later{
+  top:2153px;
+}
+
+#calendar.expanded .expanded-61{
+  height:2192px !important;
+}
+
+#calendar.expanded .empty.expanded-61,
+#calendar.expanded #hidden-columns .expanded-61{
+  height:2192px !important;
+}
+
+#calendar.expanded .empty.expanded-61:hover{
+  height:2192px !important;
+}
+
+#calendar.expanded .group.expanded-61{
+  height:2199px !important;
+}
+
+#calendar.expanded .groupend.expanded-61{
+  height:2195px !important;
+}
+
+#calendar.expanded .groupstart.expanded-61{
+  height:2194px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-61{
+  height:2203px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-61{
+  height:2198px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-61{
+  height:2201px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-61{
+  height:2197px !important;
+}
+
+#calendar.expanded .dates .expanded-61,
+#calendar.expanded #hidden-columns .showmore.expanded-61{
+  height:32px !important;
+  margin-bottom:2164px;
+}
+
+#calendar.expanded .dates .sunday.expanded-61,
+#calendar.expanded #hidden-columns .sunday.expanded-61{
+  margin-bottom:2170px;
+}
+
+#calendar.expanded .expanded-61:not(.expanded) .related-events.later{
+  top:2189px;
+}
+
+#calendar.expanded .expanded-62{
+  height:2228px !important;
+}
+
+#calendar.expanded .empty.expanded-62,
+#calendar.expanded #hidden-columns .expanded-62{
+  height:2228px !important;
+}
+
+#calendar.expanded .empty.expanded-62:hover{
+  height:2228px !important;
+}
+
+#calendar.expanded .group.expanded-62{
+  height:2235px !important;
+}
+
+#calendar.expanded .groupend.expanded-62{
+  height:2231px !important;
+}
+
+#calendar.expanded .groupstart.expanded-62{
+  height:2230px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-62{
+  height:2239px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-62{
+  height:2234px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-62{
+  height:2237px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-62{
+  height:2233px !important;
+}
+
+#calendar.expanded .dates .expanded-62,
+#calendar.expanded #hidden-columns .showmore.expanded-62{
+  height:32px !important;
+  margin-bottom:2200px;
+}
+
+#calendar.expanded .dates .sunday.expanded-62,
+#calendar.expanded #hidden-columns .sunday.expanded-62{
+  margin-bottom:2206px;
+}
+
+#calendar.expanded .expanded-62:not(.expanded) .related-events.later{
+  top:2225px;
+}
+
+#calendar.expanded .expanded-63{
+  height:2264px !important;
+}
+
+#calendar.expanded .empty.expanded-63,
+#calendar.expanded #hidden-columns .expanded-63{
+  height:2264px !important;
+}
+
+#calendar.expanded .empty.expanded-63:hover{
+  height:2264px !important;
+}
+
+#calendar.expanded .group.expanded-63{
+  height:2271px !important;
+}
+
+#calendar.expanded .groupend.expanded-63{
+  height:2267px !important;
+}
+
+#calendar.expanded .groupstart.expanded-63{
+  height:2266px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-63{
+  height:2275px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-63{
+  height:2270px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-63{
+  height:2273px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-63{
+  height:2269px !important;
+}
+
+#calendar.expanded .dates .expanded-63,
+#calendar.expanded #hidden-columns .showmore.expanded-63{
+  height:32px !important;
+  margin-bottom:2236px;
+}
+
+#calendar.expanded .dates .sunday.expanded-63,
+#calendar.expanded #hidden-columns .sunday.expanded-63{
+  margin-bottom:2242px;
+}
+
+#calendar.expanded .expanded-63:not(.expanded) .related-events.later{
+  top:2261px;
+}
+
+#calendar.expanded .expanded-64{
+  height:2300px !important;
+}
+
+#calendar.expanded .empty.expanded-64,
+#calendar.expanded #hidden-columns .expanded-64{
+  height:2300px !important;
+}
+
+#calendar.expanded .empty.expanded-64:hover{
+  height:2300px !important;
+}
+
+#calendar.expanded .group.expanded-64{
+  height:2307px !important;
+}
+
+#calendar.expanded .groupend.expanded-64{
+  height:2303px !important;
+}
+
+#calendar.expanded .groupstart.expanded-64{
+  height:2302px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-64{
+  height:2311px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-64{
+  height:2306px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-64{
+  height:2309px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-64{
+  height:2305px !important;
+}
+
+#calendar.expanded .dates .expanded-64,
+#calendar.expanded #hidden-columns .showmore.expanded-64{
+  height:32px !important;
+  margin-bottom:2272px;
+}
+
+#calendar.expanded .dates .sunday.expanded-64,
+#calendar.expanded #hidden-columns .sunday.expanded-64{
+  margin-bottom:2278px;
+}
+
+#calendar.expanded .expanded-64:not(.expanded) .related-events.later{
+  top:2297px;
+}
+
+#calendar.expanded .expanded-65{
+  height:2336px !important;
+}
+
+#calendar.expanded .empty.expanded-65,
+#calendar.expanded #hidden-columns .expanded-65{
+  height:2336px !important;
+}
+
+#calendar.expanded .empty.expanded-65:hover{
+  height:2336px !important;
+}
+
+#calendar.expanded .group.expanded-65{
+  height:2343px !important;
+}
+
+#calendar.expanded .groupend.expanded-65{
+  height:2339px !important;
+}
+
+#calendar.expanded .groupstart.expanded-65{
+  height:2338px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-65{
+  height:2347px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-65{
+  height:2342px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-65{
+  height:2345px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-65{
+  height:2341px !important;
+}
+
+#calendar.expanded .dates .expanded-65,
+#calendar.expanded #hidden-columns .showmore.expanded-65{
+  height:32px !important;
+  margin-bottom:2308px;
+}
+
+#calendar.expanded .dates .sunday.expanded-65,
+#calendar.expanded #hidden-columns .sunday.expanded-65{
+  margin-bottom:2314px;
+}
+
+#calendar.expanded .expanded-65:not(.expanded) .related-events.later{
+  top:2333px;
+}
+
+#calendar.expanded .expanded-66{
+  height:2372px !important;
+}
+
+#calendar.expanded .empty.expanded-66,
+#calendar.expanded #hidden-columns .expanded-66{
+  height:2372px !important;
+}
+
+#calendar.expanded .empty.expanded-66:hover{
+  height:2372px !important;
+}
+
+#calendar.expanded .group.expanded-66{
+  height:2379px !important;
+}
+
+#calendar.expanded .groupend.expanded-66{
+  height:2375px !important;
+}
+
+#calendar.expanded .groupstart.expanded-66{
+  height:2374px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-66{
+  height:2383px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-66{
+  height:2378px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-66{
+  height:2381px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-66{
+  height:2377px !important;
+}
+
+#calendar.expanded .dates .expanded-66,
+#calendar.expanded #hidden-columns .showmore.expanded-66{
+  height:32px !important;
+  margin-bottom:2344px;
+}
+
+#calendar.expanded .dates .sunday.expanded-66,
+#calendar.expanded #hidden-columns .sunday.expanded-66{
+  margin-bottom:2350px;
+}
+
+#calendar.expanded .expanded-66:not(.expanded) .related-events.later{
+  top:2369px;
+}
+
+#calendar.expanded .expanded-67{
+  height:2408px !important;
+}
+
+#calendar.expanded .empty.expanded-67,
+#calendar.expanded #hidden-columns .expanded-67{
+  height:2408px !important;
+}
+
+#calendar.expanded .empty.expanded-67:hover{
+  height:2408px !important;
+}
+
+#calendar.expanded .group.expanded-67{
+  height:2415px !important;
+}
+
+#calendar.expanded .groupend.expanded-67{
+  height:2411px !important;
+}
+
+#calendar.expanded .groupstart.expanded-67{
+  height:2410px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-67{
+  height:2419px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-67{
+  height:2414px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-67{
+  height:2417px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-67{
+  height:2413px !important;
+}
+
+#calendar.expanded .dates .expanded-67,
+#calendar.expanded #hidden-columns .showmore.expanded-67{
+  height:32px !important;
+  margin-bottom:2380px;
+}
+
+#calendar.expanded .dates .sunday.expanded-67,
+#calendar.expanded #hidden-columns .sunday.expanded-67{
+  margin-bottom:2386px;
+}
+
+#calendar.expanded .expanded-67:not(.expanded) .related-events.later{
+  top:2405px;
+}
+
+#calendar.expanded .expanded-68{
+  height:2444px !important;
+}
+
+#calendar.expanded .empty.expanded-68,
+#calendar.expanded #hidden-columns .expanded-68{
+  height:2444px !important;
+}
+
+#calendar.expanded .empty.expanded-68:hover{
+  height:2444px !important;
+}
+
+#calendar.expanded .group.expanded-68{
+  height:2451px !important;
+}
+
+#calendar.expanded .groupend.expanded-68{
+  height:2447px !important;
+}
+
+#calendar.expanded .groupstart.expanded-68{
+  height:2446px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-68{
+  height:2455px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-68{
+  height:2450px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-68{
+  height:2453px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-68{
+  height:2449px !important;
+}
+
+#calendar.expanded .dates .expanded-68,
+#calendar.expanded #hidden-columns .showmore.expanded-68{
+  height:32px !important;
+  margin-bottom:2416px;
+}
+
+#calendar.expanded .dates .sunday.expanded-68,
+#calendar.expanded #hidden-columns .sunday.expanded-68{
+  margin-bottom:2422px;
+}
+
+#calendar.expanded .expanded-68:not(.expanded) .related-events.later{
+  top:2441px;
+}
+
+#calendar.expanded .expanded-69{
+  height:2480px !important;
+}
+
+#calendar.expanded .empty.expanded-69,
+#calendar.expanded #hidden-columns .expanded-69{
+  height:2480px !important;
+}
+
+#calendar.expanded .empty.expanded-69:hover{
+  height:2480px !important;
+}
+
+#calendar.expanded .group.expanded-69{
+  height:2487px !important;
+}
+
+#calendar.expanded .groupend.expanded-69{
+  height:2483px !important;
+}
+
+#calendar.expanded .groupstart.expanded-69{
+  height:2482px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-69{
+  height:2491px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-69{
+  height:2486px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-69{
+  height:2489px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-69{
+  height:2485px !important;
+}
+
+#calendar.expanded .dates .expanded-69,
+#calendar.expanded #hidden-columns .showmore.expanded-69{
+  height:32px !important;
+  margin-bottom:2452px;
+}
+
+#calendar.expanded .dates .sunday.expanded-69,
+#calendar.expanded #hidden-columns .sunday.expanded-69{
+  margin-bottom:2458px;
+}
+
+#calendar.expanded .expanded-69:not(.expanded) .related-events.later{
+  top:2477px;
+}
+
+#calendar.expanded .expanded-70{
+  height:2516px !important;
+}
+
+#calendar.expanded .empty.expanded-70,
+#calendar.expanded #hidden-columns .expanded-70{
+  height:2516px !important;
+}
+
+#calendar.expanded .empty.expanded-70:hover{
+  height:2516px !important;
+}
+
+#calendar.expanded .group.expanded-70{
+  height:2523px !important;
+}
+
+#calendar.expanded .groupend.expanded-70{
+  height:2519px !important;
+}
+
+#calendar.expanded .groupstart.expanded-70{
+  height:2518px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-70{
+  height:2527px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-70{
+  height:2522px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-70{
+  height:2525px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-70{
+  height:2521px !important;
+}
+
+#calendar.expanded .dates .expanded-70,
+#calendar.expanded #hidden-columns .showmore.expanded-70{
+  height:32px !important;
+  margin-bottom:2488px;
+}
+
+#calendar.expanded .dates .sunday.expanded-70,
+#calendar.expanded #hidden-columns .sunday.expanded-70{
+  margin-bottom:2494px;
+}
+
+#calendar.expanded .expanded-70:not(.expanded) .related-events.later{
+  top:2513px;
+}
+
+#calendar.expanded .expanded-71{
+  height:2552px !important;
+}
+
+#calendar.expanded .empty.expanded-71,
+#calendar.expanded #hidden-columns .expanded-71{
+  height:2552px !important;
+}
+
+#calendar.expanded .empty.expanded-71:hover{
+  height:2552px !important;
+}
+
+#calendar.expanded .group.expanded-71{
+  height:2559px !important;
+}
+
+#calendar.expanded .groupend.expanded-71{
+  height:2555px !important;
+}
+
+#calendar.expanded .groupstart.expanded-71{
+  height:2554px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-71{
+  height:2563px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-71{
+  height:2558px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-71{
+  height:2561px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-71{
+  height:2557px !important;
+}
+
+#calendar.expanded .dates .expanded-71,
+#calendar.expanded #hidden-columns .showmore.expanded-71{
+  height:32px !important;
+  margin-bottom:2524px;
+}
+
+#calendar.expanded .dates .sunday.expanded-71,
+#calendar.expanded #hidden-columns .sunday.expanded-71{
+  margin-bottom:2530px;
+}
+
+#calendar.expanded .expanded-71:not(.expanded) .related-events.later{
+  top:2549px;
+}
+
+#calendar.expanded .expanded-72{
+  height:2588px !important;
+}
+
+#calendar.expanded .empty.expanded-72,
+#calendar.expanded #hidden-columns .expanded-72{
+  height:2588px !important;
+}
+
+#calendar.expanded .empty.expanded-72:hover{
+  height:2588px !important;
+}
+
+#calendar.expanded .group.expanded-72{
+  height:2595px !important;
+}
+
+#calendar.expanded .groupend.expanded-72{
+  height:2591px !important;
+}
+
+#calendar.expanded .groupstart.expanded-72{
+  height:2590px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-72{
+  height:2599px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-72{
+  height:2594px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-72{
+  height:2597px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-72{
+  height:2593px !important;
+}
+
+#calendar.expanded .dates .expanded-72,
+#calendar.expanded #hidden-columns .showmore.expanded-72{
+  height:32px !important;
+  margin-bottom:2560px;
+}
+
+#calendar.expanded .dates .sunday.expanded-72,
+#calendar.expanded #hidden-columns .sunday.expanded-72{
+  margin-bottom:2566px;
+}
+
+#calendar.expanded .expanded-72:not(.expanded) .related-events.later{
+  top:2585px;
+}
+
+#calendar.expanded .expanded-73{
+  height:2624px !important;
+}
+
+#calendar.expanded .empty.expanded-73,
+#calendar.expanded #hidden-columns .expanded-73{
+  height:2624px !important;
+}
+
+#calendar.expanded .empty.expanded-73:hover{
+  height:2624px !important;
+}
+
+#calendar.expanded .group.expanded-73{
+  height:2631px !important;
+}
+
+#calendar.expanded .groupend.expanded-73{
+  height:2627px !important;
+}
+
+#calendar.expanded .groupstart.expanded-73{
+  height:2626px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-73{
+  height:2635px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-73{
+  height:2630px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-73{
+  height:2633px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-73{
+  height:2629px !important;
+}
+
+#calendar.expanded .dates .expanded-73,
+#calendar.expanded #hidden-columns .showmore.expanded-73{
+  height:32px !important;
+  margin-bottom:2596px;
+}
+
+#calendar.expanded .dates .sunday.expanded-73,
+#calendar.expanded #hidden-columns .sunday.expanded-73{
+  margin-bottom:2602px;
+}
+
+#calendar.expanded .expanded-73:not(.expanded) .related-events.later{
+  top:2621px;
+}
+
+#calendar.expanded .expanded-74{
+  height:2660px !important;
+}
+
+#calendar.expanded .empty.expanded-74,
+#calendar.expanded #hidden-columns .expanded-74{
+  height:2660px !important;
+}
+
+#calendar.expanded .empty.expanded-74:hover{
+  height:2660px !important;
+}
+
+#calendar.expanded .group.expanded-74{
+  height:2667px !important;
+}
+
+#calendar.expanded .groupend.expanded-74{
+  height:2663px !important;
+}
+
+#calendar.expanded .groupstart.expanded-74{
+  height:2662px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-74{
+  height:2671px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-74{
+  height:2666px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-74{
+  height:2669px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-74{
+  height:2665px !important;
+}
+
+#calendar.expanded .dates .expanded-74,
+#calendar.expanded #hidden-columns .showmore.expanded-74{
+  height:32px !important;
+  margin-bottom:2632px;
+}
+
+#calendar.expanded .dates .sunday.expanded-74,
+#calendar.expanded #hidden-columns .sunday.expanded-74{
+  margin-bottom:2638px;
+}
+
+#calendar.expanded .expanded-74:not(.expanded) .related-events.later{
+  top:2657px;
+}
+
+#calendar.expanded .expanded-75{
+  height:2696px !important;
+}
+
+#calendar.expanded .empty.expanded-75,
+#calendar.expanded #hidden-columns .expanded-75{
+  height:2696px !important;
+}
+
+#calendar.expanded .empty.expanded-75:hover{
+  height:2696px !important;
+}
+
+#calendar.expanded .group.expanded-75{
+  height:2703px !important;
+}
+
+#calendar.expanded .groupend.expanded-75{
+  height:2699px !important;
+}
+
+#calendar.expanded .groupstart.expanded-75{
+  height:2698px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-75{
+  height:2707px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-75{
+  height:2702px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-75{
+  height:2705px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-75{
+  height:2701px !important;
+}
+
+#calendar.expanded .dates .expanded-75,
+#calendar.expanded #hidden-columns .showmore.expanded-75{
+  height:32px !important;
+  margin-bottom:2668px;
+}
+
+#calendar.expanded .dates .sunday.expanded-75,
+#calendar.expanded #hidden-columns .sunday.expanded-75{
+  margin-bottom:2674px;
+}
+
+#calendar.expanded .expanded-75:not(.expanded) .related-events.later{
+  top:2693px;
+}
+
+#calendar.expanded .expanded-76{
+  height:2732px !important;
+}
+
+#calendar.expanded .empty.expanded-76,
+#calendar.expanded #hidden-columns .expanded-76{
+  height:2732px !important;
+}
+
+#calendar.expanded .empty.expanded-76:hover{
+  height:2732px !important;
+}
+
+#calendar.expanded .group.expanded-76{
+  height:2739px !important;
+}
+
+#calendar.expanded .groupend.expanded-76{
+  height:2735px !important;
+}
+
+#calendar.expanded .groupstart.expanded-76{
+  height:2734px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-76{
+  height:2743px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-76{
+  height:2738px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-76{
+  height:2741px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-76{
+  height:2737px !important;
+}
+
+#calendar.expanded .dates .expanded-76,
+#calendar.expanded #hidden-columns .showmore.expanded-76{
+  height:32px !important;
+  margin-bottom:2704px;
+}
+
+#calendar.expanded .dates .sunday.expanded-76,
+#calendar.expanded #hidden-columns .sunday.expanded-76{
+  margin-bottom:2710px;
+}
+
+#calendar.expanded .expanded-76:not(.expanded) .related-events.later{
+  top:2729px;
+}
+
+#calendar.expanded .expanded-77{
+  height:2768px !important;
+}
+
+#calendar.expanded .empty.expanded-77,
+#calendar.expanded #hidden-columns .expanded-77{
+  height:2768px !important;
+}
+
+#calendar.expanded .empty.expanded-77:hover{
+  height:2768px !important;
+}
+
+#calendar.expanded .group.expanded-77{
+  height:2775px !important;
+}
+
+#calendar.expanded .groupend.expanded-77{
+  height:2771px !important;
+}
+
+#calendar.expanded .groupstart.expanded-77{
+  height:2770px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-77{
+  height:2779px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-77{
+  height:2774px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-77{
+  height:2777px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-77{
+  height:2773px !important;
+}
+
+#calendar.expanded .dates .expanded-77,
+#calendar.expanded #hidden-columns .showmore.expanded-77{
+  height:32px !important;
+  margin-bottom:2740px;
+}
+
+#calendar.expanded .dates .sunday.expanded-77,
+#calendar.expanded #hidden-columns .sunday.expanded-77{
+  margin-bottom:2746px;
+}
+
+#calendar.expanded .expanded-77:not(.expanded) .related-events.later{
+  top:2765px;
+}
+
+#calendar.expanded .expanded-78{
+  height:2804px !important;
+}
+
+#calendar.expanded .empty.expanded-78,
+#calendar.expanded #hidden-columns .expanded-78{
+  height:2804px !important;
+}
+
+#calendar.expanded .empty.expanded-78:hover{
+  height:2804px !important;
+}
+
+#calendar.expanded .group.expanded-78{
+  height:2811px !important;
+}
+
+#calendar.expanded .groupend.expanded-78{
+  height:2807px !important;
+}
+
+#calendar.expanded .groupstart.expanded-78{
+  height:2806px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-78{
+  height:2815px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-78{
+  height:2810px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-78{
+  height:2813px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-78{
+  height:2809px !important;
+}
+
+#calendar.expanded .dates .expanded-78,
+#calendar.expanded #hidden-columns .showmore.expanded-78{
+  height:32px !important;
+  margin-bottom:2776px;
+}
+
+#calendar.expanded .dates .sunday.expanded-78,
+#calendar.expanded #hidden-columns .sunday.expanded-78{
+  margin-bottom:2782px;
+}
+
+#calendar.expanded .expanded-78:not(.expanded) .related-events.later{
+  top:2801px;
+}
+
+#calendar.expanded .expanded-79{
+  height:2840px !important;
+}
+
+#calendar.expanded .empty.expanded-79,
+#calendar.expanded #hidden-columns .expanded-79{
+  height:2840px !important;
+}
+
+#calendar.expanded .empty.expanded-79:hover{
+  height:2840px !important;
+}
+
+#calendar.expanded .group.expanded-79{
+  height:2847px !important;
+}
+
+#calendar.expanded .groupend.expanded-79{
+  height:2843px !important;
+}
+
+#calendar.expanded .groupstart.expanded-79{
+  height:2842px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-79{
+  height:2851px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-79{
+  height:2846px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-79{
+  height:2849px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-79{
+  height:2845px !important;
+}
+
+#calendar.expanded .dates .expanded-79,
+#calendar.expanded #hidden-columns .showmore.expanded-79{
+  height:32px !important;
+  margin-bottom:2812px;
+}
+
+#calendar.expanded .dates .sunday.expanded-79,
+#calendar.expanded #hidden-columns .sunday.expanded-79{
+  margin-bottom:2818px;
+}
+
+#calendar.expanded .expanded-79:not(.expanded) .related-events.later{
+  top:2837px;
+}
+
+#calendar.expanded .expanded-80{
+  height:2876px !important;
+}
+
+#calendar.expanded .empty.expanded-80,
+#calendar.expanded #hidden-columns .expanded-80{
+  height:2876px !important;
+}
+
+#calendar.expanded .empty.expanded-80:hover{
+  height:2876px !important;
+}
+
+#calendar.expanded .group.expanded-80{
+  height:2883px !important;
+}
+
+#calendar.expanded .groupend.expanded-80{
+  height:2879px !important;
+}
+
+#calendar.expanded .groupstart.expanded-80{
+  height:2878px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-80{
+  height:2887px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-80{
+  height:2882px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-80{
+  height:2885px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-80{
+  height:2881px !important;
+}
+
+#calendar.expanded .dates .expanded-80,
+#calendar.expanded #hidden-columns .showmore.expanded-80{
+  height:32px !important;
+  margin-bottom:2848px;
+}
+
+#calendar.expanded .dates .sunday.expanded-80,
+#calendar.expanded #hidden-columns .sunday.expanded-80{
+  margin-bottom:2854px;
+}
+
+#calendar.expanded .expanded-80:not(.expanded) .related-events.later{
+  top:2873px;
+}
+
+#calendar.expanded .expanded-81{
+  height:2912px !important;
+}
+
+#calendar.expanded .empty.expanded-81,
+#calendar.expanded #hidden-columns .expanded-81{
+  height:2912px !important;
+}
+
+#calendar.expanded .empty.expanded-81:hover{
+  height:2912px !important;
+}
+
+#calendar.expanded .group.expanded-81{
+  height:2919px !important;
+}
+
+#calendar.expanded .groupend.expanded-81{
+  height:2915px !important;
+}
+
+#calendar.expanded .groupstart.expanded-81{
+  height:2914px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-81{
+  height:2923px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-81{
+  height:2918px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-81{
+  height:2921px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-81{
+  height:2917px !important;
+}
+
+#calendar.expanded .dates .expanded-81,
+#calendar.expanded #hidden-columns .showmore.expanded-81{
+  height:32px !important;
+  margin-bottom:2884px;
+}
+
+#calendar.expanded .dates .sunday.expanded-81,
+#calendar.expanded #hidden-columns .sunday.expanded-81{
+  margin-bottom:2890px;
+}
+
+#calendar.expanded .expanded-81:not(.expanded) .related-events.later{
+  top:2909px;
+}
+
+#calendar.expanded .expanded-82{
+  height:2948px !important;
+}
+
+#calendar.expanded .empty.expanded-82,
+#calendar.expanded #hidden-columns .expanded-82{
+  height:2948px !important;
+}
+
+#calendar.expanded .empty.expanded-82:hover{
+  height:2948px !important;
+}
+
+#calendar.expanded .group.expanded-82{
+  height:2955px !important;
+}
+
+#calendar.expanded .groupend.expanded-82{
+  height:2951px !important;
+}
+
+#calendar.expanded .groupstart.expanded-82{
+  height:2950px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-82{
+  height:2959px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-82{
+  height:2954px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-82{
+  height:2957px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-82{
+  height:2953px !important;
+}
+
+#calendar.expanded .dates .expanded-82,
+#calendar.expanded #hidden-columns .showmore.expanded-82{
+  height:32px !important;
+  margin-bottom:2920px;
+}
+
+#calendar.expanded .dates .sunday.expanded-82,
+#calendar.expanded #hidden-columns .sunday.expanded-82{
+  margin-bottom:2926px;
+}
+
+#calendar.expanded .expanded-82:not(.expanded) .related-events.later{
+  top:2945px;
+}
+
+#calendar.expanded .expanded-83{
+  height:2984px !important;
+}
+
+#calendar.expanded .empty.expanded-83,
+#calendar.expanded #hidden-columns .expanded-83{
+  height:2984px !important;
+}
+
+#calendar.expanded .empty.expanded-83:hover{
+  height:2984px !important;
+}
+
+#calendar.expanded .group.expanded-83{
+  height:2991px !important;
+}
+
+#calendar.expanded .groupend.expanded-83{
+  height:2987px !important;
+}
+
+#calendar.expanded .groupstart.expanded-83{
+  height:2986px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-83{
+  height:2995px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-83{
+  height:2990px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-83{
+  height:2993px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-83{
+  height:2989px !important;
+}
+
+#calendar.expanded .dates .expanded-83,
+#calendar.expanded #hidden-columns .showmore.expanded-83{
+  height:32px !important;
+  margin-bottom:2956px;
+}
+
+#calendar.expanded .dates .sunday.expanded-83,
+#calendar.expanded #hidden-columns .sunday.expanded-83{
+  margin-bottom:2962px;
+}
+
+#calendar.expanded .expanded-83:not(.expanded) .related-events.later{
+  top:2981px;
+}
+
+#calendar.expanded .expanded-84{
+  height:3020px !important;
+}
+
+#calendar.expanded .empty.expanded-84,
+#calendar.expanded #hidden-columns .expanded-84{
+  height:3020px !important;
+}
+
+#calendar.expanded .empty.expanded-84:hover{
+  height:3020px !important;
+}
+
+#calendar.expanded .group.expanded-84{
+  height:3027px !important;
+}
+
+#calendar.expanded .groupend.expanded-84{
+  height:3023px !important;
+}
+
+#calendar.expanded .groupstart.expanded-84{
+  height:3022px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-84{
+  height:3031px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-84{
+  height:3026px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-84{
+  height:3029px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-84{
+  height:3025px !important;
+}
+
+#calendar.expanded .dates .expanded-84,
+#calendar.expanded #hidden-columns .showmore.expanded-84{
+  height:32px !important;
+  margin-bottom:2992px;
+}
+
+#calendar.expanded .dates .sunday.expanded-84,
+#calendar.expanded #hidden-columns .sunday.expanded-84{
+  margin-bottom:2998px;
+}
+
+#calendar.expanded .expanded-84:not(.expanded) .related-events.later{
+  top:3017px;
+}
+
+#calendar.expanded .expanded-85{
+  height:3056px !important;
+}
+
+#calendar.expanded .empty.expanded-85,
+#calendar.expanded #hidden-columns .expanded-85{
+  height:3056px !important;
+}
+
+#calendar.expanded .empty.expanded-85:hover{
+  height:3056px !important;
+}
+
+#calendar.expanded .group.expanded-85{
+  height:3063px !important;
+}
+
+#calendar.expanded .groupend.expanded-85{
+  height:3059px !important;
+}
+
+#calendar.expanded .groupstart.expanded-85{
+  height:3058px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-85{
+  height:3067px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-85{
+  height:3062px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-85{
+  height:3065px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-85{
+  height:3061px !important;
+}
+
+#calendar.expanded .dates .expanded-85,
+#calendar.expanded #hidden-columns .showmore.expanded-85{
+  height:32px !important;
+  margin-bottom:3028px;
+}
+
+#calendar.expanded .dates .sunday.expanded-85,
+#calendar.expanded #hidden-columns .sunday.expanded-85{
+  margin-bottom:3034px;
+}
+
+#calendar.expanded .expanded-85:not(.expanded) .related-events.later{
+  top:3053px;
+}
+
+#calendar.expanded .expanded-86{
+  height:3092px !important;
+}
+
+#calendar.expanded .empty.expanded-86,
+#calendar.expanded #hidden-columns .expanded-86{
+  height:3092px !important;
+}
+
+#calendar.expanded .empty.expanded-86:hover{
+  height:3092px !important;
+}
+
+#calendar.expanded .group.expanded-86{
+  height:3099px !important;
+}
+
+#calendar.expanded .groupend.expanded-86{
+  height:3095px !important;
+}
+
+#calendar.expanded .groupstart.expanded-86{
+  height:3094px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-86{
+  height:3103px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-86{
+  height:3098px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-86{
+  height:3101px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-86{
+  height:3097px !important;
+}
+
+#calendar.expanded .dates .expanded-86,
+#calendar.expanded #hidden-columns .showmore.expanded-86{
+  height:32px !important;
+  margin-bottom:3064px;
+}
+
+#calendar.expanded .dates .sunday.expanded-86,
+#calendar.expanded #hidden-columns .sunday.expanded-86{
+  margin-bottom:3070px;
+}
+
+#calendar.expanded .expanded-86:not(.expanded) .related-events.later{
+  top:3089px;
+}
+
+#calendar.expanded .expanded-87{
+  height:3128px !important;
+}
+
+#calendar.expanded .empty.expanded-87,
+#calendar.expanded #hidden-columns .expanded-87{
+  height:3128px !important;
+}
+
+#calendar.expanded .empty.expanded-87:hover{
+  height:3128px !important;
+}
+
+#calendar.expanded .group.expanded-87{
+  height:3135px !important;
+}
+
+#calendar.expanded .groupend.expanded-87{
+  height:3131px !important;
+}
+
+#calendar.expanded .groupstart.expanded-87{
+  height:3130px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-87{
+  height:3139px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-87{
+  height:3134px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-87{
+  height:3137px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-87{
+  height:3133px !important;
+}
+
+#calendar.expanded .dates .expanded-87,
+#calendar.expanded #hidden-columns .showmore.expanded-87{
+  height:32px !important;
+  margin-bottom:3100px;
+}
+
+#calendar.expanded .dates .sunday.expanded-87,
+#calendar.expanded #hidden-columns .sunday.expanded-87{
+  margin-bottom:3106px;
+}
+
+#calendar.expanded .expanded-87:not(.expanded) .related-events.later{
+  top:3125px;
+}
+
+#calendar.expanded .expanded-88{
+  height:3164px !important;
+}
+
+#calendar.expanded .empty.expanded-88,
+#calendar.expanded #hidden-columns .expanded-88{
+  height:3164px !important;
+}
+
+#calendar.expanded .empty.expanded-88:hover{
+  height:3164px !important;
+}
+
+#calendar.expanded .group.expanded-88{
+  height:3171px !important;
+}
+
+#calendar.expanded .groupend.expanded-88{
+  height:3167px !important;
+}
+
+#calendar.expanded .groupstart.expanded-88{
+  height:3166px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-88{
+  height:3175px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-88{
+  height:3170px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-88{
+  height:3173px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-88{
+  height:3169px !important;
+}
+
+#calendar.expanded .dates .expanded-88,
+#calendar.expanded #hidden-columns .showmore.expanded-88{
+  height:32px !important;
+  margin-bottom:3136px;
+}
+
+#calendar.expanded .dates .sunday.expanded-88,
+#calendar.expanded #hidden-columns .sunday.expanded-88{
+  margin-bottom:3142px;
+}
+
+#calendar.expanded .expanded-88:not(.expanded) .related-events.later{
+  top:3161px;
+}
+
+#calendar.expanded .expanded-89{
+  height:3200px !important;
+}
+
+#calendar.expanded .empty.expanded-89,
+#calendar.expanded #hidden-columns .expanded-89{
+  height:3200px !important;
+}
+
+#calendar.expanded .empty.expanded-89:hover{
+  height:3200px !important;
+}
+
+#calendar.expanded .group.expanded-89{
+  height:3207px !important;
+}
+
+#calendar.expanded .groupend.expanded-89{
+  height:3203px !important;
+}
+
+#calendar.expanded .groupstart.expanded-89{
+  height:3202px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-89{
+  height:3211px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-89{
+  height:3206px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-89{
+  height:3209px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-89{
+  height:3205px !important;
+}
+
+#calendar.expanded .dates .expanded-89,
+#calendar.expanded #hidden-columns .showmore.expanded-89{
+  height:32px !important;
+  margin-bottom:3172px;
+}
+
+#calendar.expanded .dates .sunday.expanded-89,
+#calendar.expanded #hidden-columns .sunday.expanded-89{
+  margin-bottom:3178px;
+}
+
+#calendar.expanded .expanded-89:not(.expanded) .related-events.later{
+  top:3197px;
+}
+
+#calendar.expanded .expanded-90{
+  height:3236px !important;
+}
+
+#calendar.expanded .empty.expanded-90,
+#calendar.expanded #hidden-columns .expanded-90{
+  height:3236px !important;
+}
+
+#calendar.expanded .empty.expanded-90:hover{
+  height:3236px !important;
+}
+
+#calendar.expanded .group.expanded-90{
+  height:3243px !important;
+}
+
+#calendar.expanded .groupend.expanded-90{
+  height:3239px !important;
+}
+
+#calendar.expanded .groupstart.expanded-90{
+  height:3238px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-90{
+  height:3247px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-90{
+  height:3242px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-90{
+  height:3245px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-90{
+  height:3241px !important;
+}
+
+#calendar.expanded .dates .expanded-90,
+#calendar.expanded #hidden-columns .showmore.expanded-90{
+  height:32px !important;
+  margin-bottom:3208px;
+}
+
+#calendar.expanded .dates .sunday.expanded-90,
+#calendar.expanded #hidden-columns .sunday.expanded-90{
+  margin-bottom:3214px;
+}
+
+#calendar.expanded .expanded-90:not(.expanded) .related-events.later{
+  top:3233px;
+}
+
+#calendar.expanded .expanded-91{
+  height:3272px !important;
+}
+
+#calendar.expanded .empty.expanded-91,
+#calendar.expanded #hidden-columns .expanded-91{
+  height:3272px !important;
+}
+
+#calendar.expanded .empty.expanded-91:hover{
+  height:3272px !important;
+}
+
+#calendar.expanded .group.expanded-91{
+  height:3279px !important;
+}
+
+#calendar.expanded .groupend.expanded-91{
+  height:3275px !important;
+}
+
+#calendar.expanded .groupstart.expanded-91{
+  height:3274px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-91{
+  height:3283px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-91{
+  height:3278px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-91{
+  height:3281px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-91{
+  height:3277px !important;
+}
+
+#calendar.expanded .dates .expanded-91,
+#calendar.expanded #hidden-columns .showmore.expanded-91{
+  height:32px !important;
+  margin-bottom:3244px;
+}
+
+#calendar.expanded .dates .sunday.expanded-91,
+#calendar.expanded #hidden-columns .sunday.expanded-91{
+  margin-bottom:3250px;
+}
+
+#calendar.expanded .expanded-91:not(.expanded) .related-events.later{
+  top:3269px;
+}
+
+#calendar.expanded .expanded-92{
+  height:3308px !important;
+}
+
+#calendar.expanded .empty.expanded-92,
+#calendar.expanded #hidden-columns .expanded-92{
+  height:3308px !important;
+}
+
+#calendar.expanded .empty.expanded-92:hover{
+  height:3308px !important;
+}
+
+#calendar.expanded .group.expanded-92{
+  height:3315px !important;
+}
+
+#calendar.expanded .groupend.expanded-92{
+  height:3311px !important;
+}
+
+#calendar.expanded .groupstart.expanded-92{
+  height:3310px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-92{
+  height:3319px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-92{
+  height:3314px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-92{
+  height:3317px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-92{
+  height:3313px !important;
+}
+
+#calendar.expanded .dates .expanded-92,
+#calendar.expanded #hidden-columns .showmore.expanded-92{
+  height:32px !important;
+  margin-bottom:3280px;
+}
+
+#calendar.expanded .dates .sunday.expanded-92,
+#calendar.expanded #hidden-columns .sunday.expanded-92{
+  margin-bottom:3286px;
+}
+
+#calendar.expanded .expanded-92:not(.expanded) .related-events.later{
+  top:3305px;
+}
+
+#calendar.expanded .expanded-93{
+  height:3344px !important;
+}
+
+#calendar.expanded .empty.expanded-93,
+#calendar.expanded #hidden-columns .expanded-93{
+  height:3344px !important;
+}
+
+#calendar.expanded .empty.expanded-93:hover{
+  height:3344px !important;
+}
+
+#calendar.expanded .group.expanded-93{
+  height:3351px !important;
+}
+
+#calendar.expanded .groupend.expanded-93{
+  height:3347px !important;
+}
+
+#calendar.expanded .groupstart.expanded-93{
+  height:3346px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-93{
+  height:3355px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-93{
+  height:3350px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-93{
+  height:3353px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-93{
+  height:3349px !important;
+}
+
+#calendar.expanded .dates .expanded-93,
+#calendar.expanded #hidden-columns .showmore.expanded-93{
+  height:32px !important;
+  margin-bottom:3316px;
+}
+
+#calendar.expanded .dates .sunday.expanded-93,
+#calendar.expanded #hidden-columns .sunday.expanded-93{
+  margin-bottom:3322px;
+}
+
+#calendar.expanded .expanded-93:not(.expanded) .related-events.later{
+  top:3341px;
+}
+
+#calendar.expanded .expanded-94{
+  height:3380px !important;
+}
+
+#calendar.expanded .empty.expanded-94,
+#calendar.expanded #hidden-columns .expanded-94{
+  height:3380px !important;
+}
+
+#calendar.expanded .empty.expanded-94:hover{
+  height:3380px !important;
+}
+
+#calendar.expanded .group.expanded-94{
+  height:3387px !important;
+}
+
+#calendar.expanded .groupend.expanded-94{
+  height:3383px !important;
+}
+
+#calendar.expanded .groupstart.expanded-94{
+  height:3382px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-94{
+  height:3391px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-94{
+  height:3386px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-94{
+  height:3389px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-94{
+  height:3385px !important;
+}
+
+#calendar.expanded .dates .expanded-94,
+#calendar.expanded #hidden-columns .showmore.expanded-94{
+  height:32px !important;
+  margin-bottom:3352px;
+}
+
+#calendar.expanded .dates .sunday.expanded-94,
+#calendar.expanded #hidden-columns .sunday.expanded-94{
+  margin-bottom:3358px;
+}
+
+#calendar.expanded .expanded-94:not(.expanded) .related-events.later{
+  top:3377px;
+}
+
+#calendar.expanded .expanded-95{
+  height:3416px !important;
+}
+
+#calendar.expanded .empty.expanded-95,
+#calendar.expanded #hidden-columns .expanded-95{
+  height:3416px !important;
+}
+
+#calendar.expanded .empty.expanded-95:hover{
+  height:3416px !important;
+}
+
+#calendar.expanded .group.expanded-95{
+  height:3423px !important;
+}
+
+#calendar.expanded .groupend.expanded-95{
+  height:3419px !important;
+}
+
+#calendar.expanded .groupstart.expanded-95{
+  height:3418px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-95{
+  height:3427px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-95{
+  height:3422px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-95{
+  height:3425px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-95{
+  height:3421px !important;
+}
+
+#calendar.expanded .dates .expanded-95,
+#calendar.expanded #hidden-columns .showmore.expanded-95{
+  height:32px !important;
+  margin-bottom:3388px;
+}
+
+#calendar.expanded .dates .sunday.expanded-95,
+#calendar.expanded #hidden-columns .sunday.expanded-95{
+  margin-bottom:3394px;
+}
+
+#calendar.expanded .expanded-95:not(.expanded) .related-events.later{
+  top:3413px;
+}
+
+#calendar.expanded .expanded-96{
+  height:3452px !important;
+}
+
+#calendar.expanded .empty.expanded-96,
+#calendar.expanded #hidden-columns .expanded-96{
+  height:3452px !important;
+}
+
+#calendar.expanded .empty.expanded-96:hover{
+  height:3452px !important;
+}
+
+#calendar.expanded .group.expanded-96{
+  height:3459px !important;
+}
+
+#calendar.expanded .groupend.expanded-96{
+  height:3455px !important;
+}
+
+#calendar.expanded .groupstart.expanded-96{
+  height:3454px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-96{
+  height:3463px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-96{
+  height:3458px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-96{
+  height:3461px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-96{
+  height:3457px !important;
+}
+
+#calendar.expanded .dates .expanded-96,
+#calendar.expanded #hidden-columns .showmore.expanded-96{
+  height:32px !important;
+  margin-bottom:3424px;
+}
+
+#calendar.expanded .dates .sunday.expanded-96,
+#calendar.expanded #hidden-columns .sunday.expanded-96{
+  margin-bottom:3430px;
+}
+
+#calendar.expanded .expanded-96:not(.expanded) .related-events.later{
+  top:3449px;
+}
+
+#calendar.expanded .expanded-97{
+  height:3488px !important;
+}
+
+#calendar.expanded .empty.expanded-97,
+#calendar.expanded #hidden-columns .expanded-97{
+  height:3488px !important;
+}
+
+#calendar.expanded .empty.expanded-97:hover{
+  height:3488px !important;
+}
+
+#calendar.expanded .group.expanded-97{
+  height:3495px !important;
+}
+
+#calendar.expanded .groupend.expanded-97{
+  height:3491px !important;
+}
+
+#calendar.expanded .groupstart.expanded-97{
+  height:3490px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-97{
+  height:3499px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-97{
+  height:3494px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-97{
+  height:3497px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-97{
+  height:3493px !important;
+}
+
+#calendar.expanded .dates .expanded-97,
+#calendar.expanded #hidden-columns .showmore.expanded-97{
+  height:32px !important;
+  margin-bottom:3460px;
+}
+
+#calendar.expanded .dates .sunday.expanded-97,
+#calendar.expanded #hidden-columns .sunday.expanded-97{
+  margin-bottom:3466px;
+}
+
+#calendar.expanded .expanded-97:not(.expanded) .related-events.later{
+  top:3485px;
+}
+
+#calendar.expanded .expanded-98{
+  height:3524px !important;
+}
+
+#calendar.expanded .empty.expanded-98,
+#calendar.expanded #hidden-columns .expanded-98{
+  height:3524px !important;
+}
+
+#calendar.expanded .empty.expanded-98:hover{
+  height:3524px !important;
+}
+
+#calendar.expanded .group.expanded-98{
+  height:3531px !important;
+}
+
+#calendar.expanded .groupend.expanded-98{
+  height:3527px !important;
+}
+
+#calendar.expanded .groupstart.expanded-98{
+  height:3526px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-98{
+  height:3535px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-98{
+  height:3530px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-98{
+  height:3533px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-98{
+  height:3529px !important;
+}
+
+#calendar.expanded .dates .expanded-98,
+#calendar.expanded #hidden-columns .showmore.expanded-98{
+  height:32px !important;
+  margin-bottom:3496px;
+}
+
+#calendar.expanded .dates .sunday.expanded-98,
+#calendar.expanded #hidden-columns .sunday.expanded-98{
+  margin-bottom:3502px;
+}
+
+#calendar.expanded .expanded-98:not(.expanded) .related-events.later{
+  top:3521px;
+}
+
+#calendar.expanded .expanded-99{
+  height:3560px !important;
+}
+
+#calendar.expanded .empty.expanded-99,
+#calendar.expanded #hidden-columns .expanded-99{
+  height:3560px !important;
+}
+
+#calendar.expanded .empty.expanded-99:hover{
+  height:3560px !important;
+}
+
+#calendar.expanded .group.expanded-99{
+  height:3567px !important;
+}
+
+#calendar.expanded .groupend.expanded-99{
+  height:3563px !important;
+}
+
+#calendar.expanded .groupstart.expanded-99{
+  height:3562px !important;
+}
+
+#calendar.expanded .sunday.group.expanded-99{
+  height:3571px !important;
+}
+
+#calendar.expanded .sunday.groupstart.expanded-99{
+  height:3566px !important;
+}
+
+#calendar.expanded .weekstart.group.expanded-99{
+  height:3569px !important;
+}
+
+#calendar.expanded .weekstart.groupend.expanded-99{
+  height:3565px !important;
+}
+
+#calendar.expanded .dates .expanded-99,
+#calendar.expanded #hidden-columns .showmore.expanded-99{
+  height:32px !important;
+  margin-bottom:3532px;
+}
+
+#calendar.expanded .dates .sunday.expanded-99,
+#calendar.expanded #hidden-columns .sunday.expanded-99{
+  margin-bottom:3538px;
+}
+
+#calendar.expanded .expanded-99:not(.expanded) .related-events.later{
+  top:3557px;
+}
+
+#calendar.expanded .order{
+  right:2px;
+  top:12px;
+}

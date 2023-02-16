@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Users",
+    "mainItem": "users"
+  },
+  {
+    "name": "Events",
+    "mainItem": "events"
+  },
+  {
+    "name": "Resources",
+    "mainItem": "resources"
+  },
+  {
+    "name": "Contacts",
+    "mainItem": "contacts"
+  },
+  {
+    "name": "Search",
+    "mainItem": "search"
+  },
+  {
+    "name": "Imports",
+    "mainItem": "imports"
+  },
+  {
+    "name": "Integrations",
+    "mainItem": "integrations"
+  },
+  {
+    "name": "System Settings",
+    "mainItem": "system-settings"
+  }
+]

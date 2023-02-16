@@ -1,0 +1,23 @@
+#calendar ul li h1{
+  width:146px;
+}
+
+#calendar.resource-plan ul li h1{
+  width:136px;
+}
+
+#calendar .name,
+#calendar .projectname{
+  max-width:131px;
+}
+
+#calendar .locked:hover .name,
+#calendar .locked.selected .name,
+#calendar .locked.ui-selected .name,
+#calendar .locked.group-selected .name,
+#calendar .locked-actual:hover .name,
+#calendar .locked-actual.selected .name,
+#calendar .locked-actual.ui-selected .name,
+#calendar .locked-actual.group-selected .name{
+  max-width:116px;
+}

@@ -1,0 +1,31 @@
+<div class="panel-header">
+  <nav class="panel-nav">
+    <ul>
+      {% for adminNavItem in site.data.nav.admin.main %}
+        <li
+          {% if page.currentMainItem == adminNavItem.mainItem %}
+          class="active-tab"
+          {% endif %}>
+          <a href="{{ adminNavItem.link }}">{{ adminNavItem.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+  {% assign subnav_file = page.currentMainItem | downcase | prepend: 'admin-' %}
+  {% assign subnav = site.data.nav.admin[subnav_file] %}
+
+  <nav class="panel-subnav">
+    <ul>
+      {% for adminSubNavItem in subnav %}
+        <li
+          {% if page.currentSubItem == adminSubNavItem.subItem %}
+          class="active-tab"
+          {% endif %}>
+          <a href="{{ adminSubNavItem.link }}">{{ adminSubNavItem.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+</div>

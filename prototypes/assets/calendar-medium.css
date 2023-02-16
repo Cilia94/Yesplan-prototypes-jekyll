@@ -1,0 +1,41 @@
+#calendar #hidden-columns ol li.more a{
+  font-size:10px;
+}
+
+#calendar ol{
+  width:116px;
+}
+
+#calendar ul li h1{
+  width:112px;
+}
+
+#calendar.resource-plan ul li h1{
+  width:102px;
+}
+
+#calendar .name,
+#calendar .projectname{
+  max-width:97px;
+}
+
+#calendar .name input,
+#calendar .projectname input{
+  max-width:94px;
+}
+
+#calendar .locked .name input,
+#calendar .locked .projectname input{
+  width:78px;
+}
+
+#calendar .locked:hover .name,
+#calendar .locked.selected .name,
+#calendar .locked.ui-selected .name,
+#calendar .locked.group-selected .name,
+#calendar .locked-actual:hover .name,
+#calendar .locked-actual.selected .name,
+#calendar .locked-actual.ui-selected .name,
+#calendar .locked-actual.group-selected .name{
+  max-width:82px;
+}

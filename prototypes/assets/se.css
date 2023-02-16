@@ -1,0 +1,450 @@
+.se-toolbar{
+  background-color:#333;
+  color:#F0F0F0;
+  height:0;
+  padding-left:0;
+  padding-top:0;
+  position:relative;
+  visibility:hidden;
+  width:100%;
+}
+
+.svgcontainer{
+  height:100%;
+  margin-left:0;
+  margin-top:20px;
+  width:100%;
+}
+
+#menucontainer{
+  left:10px;
+  position:fixed;
+  z-index:999;
+}
+
+g a{
+  color:#FFF;
+}
+
+.faded{
+  opacity:0.3;
+}
+
+g.faded{
+  opacity:1;
+}
+g{
+  font-family:"HelveticaNeue-Bold", "Helvetica Neue", Arial, sans-serif;
+  font-size:12px;
+  font-weight:bold;
+}
+
+pre{
+  background-color:#444;
+  color:#f0f0f0;
+  font-family:"HelveticaNeue-Bold", "Helvetica Neue", Arial, sans-serif;
+  font-size:12px;
+  font-weight:bold;
+  overflow:hidden;
+}
+.conflict-summary,
+.incomplete-summary{
+  background-color:#000;
+  border:2px solid #FFF;
+  border-radius:9px;
+  box-shadow:2px 2px 6px rgba(0, 0, 0, 0.4);
+  color:#DDD;
+  display:none;
+  font-size:11px;
+  font-weight:normal;
+  left:0;
+  line-height:18px;
+  opacity:0.92;
+  padding:12px 21px 18px 12px;
+  position:absolute;
+  top:0;
+  white-space:normal;
+  width:175px;
+  z-index:10;
+}
+
+.conflict-summary .conflict-item,
+.incomplete-summary .incomplete-item{
+  color:#FFC;
+  display:block;
+  list-style:disc outside;
+  margin-left:12px;
+  padding:9px 0 0;
+}
+
+.conflict-summary strong,
+.incomplete-summary strong{
+  color:#FFF333;
+  display:block;
+  font-size:12px;
+}
+
+.conflict-summary .tip,
+.incomplete-summary .tip{
+  background:transparent url(/images/bubble-tip-left.png) no-repeat 0 18px;
+  height:100%;
+  left:12px;
+  margin-left:-27px;
+  padding-right:30px;
+  position:absolute;
+  top:0;
+  width:100%;
+}
+.treenode body{
+  background-color:#444;
+}
+
+.treenode pre{
+  cursor:text;
+}
+
+.treenode path{
+  fill:#444;
+  stroke:#F0F0F0;
+}
+
+.treenode.pathselected path{
+  fill:#000;
+}
+
+.treenode.pathselected pre,
+.treenode.pathselected body{
+  background-color:#000;
+}
+
+.treenode.nodeselected path{
+  fill:#005AB8;
+}
+
+.treenode.nodeselected pre,
+.treenode.nodeselected body{
+  background-color:#005AB8;
+}
+
+.treenode.drophover path,
+.treenode.plainhover path{
+  fill:yellow;
+}
+.treenode.drophover pre,
+.treenode.plainhover pre{
+  background-color:yellow;
+  color:#000;
+}
+.ancestornode text{
+  fill:#888;
+}
+
+.ancestornode path{
+  fill:#444;
+  stroke:#777;
+}
+
+.ancestornode.drophover path{
+  fill:yellow;
+}
+
+.ancestornode.plainhover path{
+  fill:yellow;
+}
+.ancestornode.drophover text{
+  fill:#000;
+}
+
+.ancestornode.plainhover text{
+  fill:#000;
+}
+.timelinenode path{
+  cursor:not-allowed;
+  fill:#444;
+  stroke:#777;
+}
+.timelinenode body{
+  background-color:#444;
+}
+
+.timelinenode pre{
+  color:#888;
+  cursor:text;
+}
+
+.timelinenode.nodeselected path{
+  fill:#005AB8;
+  stroke:#FFF;
+}
+.timelinenode.nodeselected pre{
+  background-color:#005AB8;
+  color:#FFF;
+}
+
+.timelinenode.plainhover path{
+  fill:yellow;
+}
+
+.timelinenode.drophover path{
+  fill:yellow;
+}
+.timelinenode.plainhover pre{
+  background-color:yellow;
+  color:#000;
+}
+
+.timelinenode.drophover pre{
+  background-color:yellow;
+  color:#000;
+}
+
+line{
+  stroke:#555;
+}
+
+line.permanentselected,
+line.pathselected,
+g.pathselected line,
+g.permanentselected line{
+  stroke:#F0F0F0;
+}
+
+.datetimelinenode text{
+  fill:#BBB;
+  font-size:12px;
+}
+
+.datetimelinenode.drophover rect{
+  fill:yellow;
+}
+
+.datetimelinenode.drophover text{
+  fill:#000;
+}
+
+.datetimenode path{
+  fill:#444;
+  stroke:#F0F0F0;
+}
+
+.datetimelinenode pre{
+  background-color:#444;
+}
+
+.locationnode path{
+  fill:#040;
+  stroke:#F0F0F0;
+}
+
+.locationnode pre{
+  background-color:#040;
+}
+
+.locationnode .arrow path{
+  fill:#FFF;
+  stroke:#F0F0F0;
+}
+.resourcedetailnode text{
+  fill:#888;
+}
+
+.resourcedetailnode path{
+  fill:#444;
+  stroke:#777;
+}
+
+.resourcedetailnode rect{
+  fill:#222;
+}
+
+.resourcesetnode .arrow path{
+  fill:#FFF;
+  stroke:#F0F0F0;
+}
+
+.resourcenode path,
+.resourcesetnode path,
+.resourceplaceholdernode path,
+.resourcegroupnode path{
+  fill:#503A11;
+  stroke:#F0F0F0;
+}
+
+.resourcenode pre,
+.resourcesetnode pre,
+.resourceplaceholdernode pre,
+.resourcegroupnode pre{
+  background-color:#503A11;
+}
+
+.resourcenode pre,
+.resourcesetnode pre,
+.resourceplaceholdernode pre,
+.resourcegroupnode pre,
+.datetimenode pre,
+.locationnode pre{
+  color:#f0f0f0;
+}
+
+.draggedresourcenode path{
+  fill:#503A11;
+  stroke:#F0F0F0;
+}
+
+.draggedresourcenode text{
+  fill:#f0f0f0;
+}
+
+.draggedresourcenode pre{
+  color:#f0f0f0;
+}
+
+.resourceplaceholdernode .amount circle{
+  fill:#005AB8;
+  stroke:#F0F0F0;
+  stroke-width:2.1177;
+}
+
+.abstractresourcenode pre{
+  cursor:default;
+}
+
+.abstractresourcenode.drophover path{
+  fill:orange;
+}
+
+.abstractresourcenode.favorabledrophover path{
+  fill:yellow;
+}
+
+.abstractresourcenode.plainhover path{
+  fill:yellow;
+}
+.abstractresourcenode.drophover pre{
+  background-color:orange;
+  color:#000;
+}
+
+.abstractresourcenode.favorabledrophover pre{
+  background-color:yellow;
+  color:#000;
+}
+
+.abstractresourcenode.plainhover pre{
+  background-color:yellow;
+  color:#000;
+}
+
+.abstractresourcenode .amount text{
+  cursor:text;
+  fill:#F0F0F0;
+  font-family:"HelveticaNeue-Bold", "Helvetica Neue", Arial, sans-serif;
+}
+.treenode.faded body,
+.timelinenode.faded body{
+  background-color:#333;
+}
+
+.treenode.faded pre,
+.timelinenode.faded pre{
+  background-color:#333;
+  color:#676C6C;
+}
+
+.treenode.faded path,
+.timelinenode.faded path{
+  fill:#333;
+  stroke:#505050;
+}
+
+.treenode.faded.nodeselected path,
+.timelinenode.faded.nodeselected path{
+  fill:#233F5B;
+}
+
+.treenode.faded.pathselected pre,
+.treenode.faded.pathselected body,
+.timelinenode.faded.pathselected pre,
+.timelinenode.faded.pathselected body{
+  background-color:#333;
+}
+
+.treenode.faded.nodeselected pre,
+.treenode.faded.nodeselected body,
+.timelinenode.faded.nodeselected pre,
+.timelinenode.faded.nodeselected body{
+  background-color:#233F5B;
+}
+
+line.pathselected.fadedline{
+  stroke:#555;
+}
+
+line.permanentselected.fadedline,
+g.permanentselected.fadedline line{
+  stroke:#555;
+}
+.fetch,
+.fetch .datepicker{
+  fill:#666;
+  font-size:8px;
+}
+
+.fetch path{
+  fill:#222;
+}
+
+.fetch:hover,
+.fetch:hover .datepicker{
+  fill:#FFF;
+}
+
+.fetch:hover path{
+  fill:#005AB8;
+}
+
+#undo,
+#redo{
+  fill:#666;
+  font-size:8px;
+}
+
+#undo path,
+#redo path{
+  fill:#222;
+}
+
+#undo.active,
+#redo.active{
+  fill:#F0F0F0;
+}
+
+#undo.active path,
+#redo.active path{
+  fill:#005AB8;
+}
+
+#undo.active:hover path,
+#redo.active:hover path{
+  fill:#0065D0;
+}
+
+#tree_icon,
+#clock_icon{
+  fill:#666;
+}
+
+#tree_icon:hover,
+#clock_icon:hover,
+#tree_icon.active,
+#clock_icon.active{
+  fill:#F0F0F0;
+}
+
+.propagationcombo select{
+  width:100%;
+}
+
+.locationbox select{
+  width:100%;
+}
