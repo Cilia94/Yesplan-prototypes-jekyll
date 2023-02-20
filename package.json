@@ -71,7 +71,7 @@
     "utility-types": "^3.10.0",
     "uuid": "^7.0.3",
     "webpack": "^5.74.0",
-    "webpack-merge": "^4.2.2",
+    "webpack-merge": "^5.8.0",
     "webpack-merge-and-include-globally": "^2.3.4",
     "webpack-shell-plugin-next": "^2.2.2",
     "zxcvbn": "^4.4.2"
