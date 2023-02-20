@@ -1,3 +1,4 @@
 .DS_Store
 prototypes/assets/hot
 _site/assets
+node_modules

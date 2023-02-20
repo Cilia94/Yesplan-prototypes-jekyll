@@ -4,10 +4,10 @@
     background-color:rgba(255, 255, 204, 0);
   }
   5%{
-    background-color:#ffffcc;
+    background-color:rgb(255, 255, 204);
   }
   65%{
-    background-color:#ffffcc;
+    background-color:rgb(255, 255, 204);
   }
   100%{
     background-color:rgba(255, 255, 204, 0);
@@ -129,10 +129,10 @@
     box-shadow:0 0 10px 0 rgba(255, 255, 204, 0), 0 0 10px 0 rgba(255, 255, 204, 0), 0 0 10px 0 rgba(255, 255, 204, 0);
   }
   25%{
-    box-shadow:0 0 10px 0 #ffffcc, 0 0 10px 0 #ffffcc, 0 0 10px 0 #ffffcc;
+    box-shadow:0 0 10px 0 rgb(255, 255, 204), 0 0 10px 0 rgb(255, 255, 204), 0 0 10px 0 rgb(255, 255, 204);
   }
   75%{
-    box-shadow:0 0 10px 0 #ffffcc, 0 0 10px 0 #ffffcc, 0 0 10px 0 #ffffcc;
+    box-shadow:0 0 10px 0 rgb(255, 255, 204), 0 0 10px 0 rgb(255, 255, 204), 0 0 10px 0 rgb(255, 255, 204);
   }
   100%{
     box-shadow:0 0 10px 0 rgba(255, 255, 204, 0), 0 0 10px 0 rgba(255, 255, 204, 0), 0 0 10px 0 rgba(255, 255, 204, 0);
@@ -370,7 +370,6 @@ body{
 body.unselectable{
   -webkit-user-select:none;
   -moz-user-select:none;
-  -ms-user-select:none;
   user-select:none;
 }
 
@@ -1416,7 +1415,7 @@ html{
   flex:1;
 }
 .o-fullpage--viewport-height{
-  height:calc( 100% - 70px);
+  height:calc(100% - 70px);
 }
 .o-fullpage.o-fullpage--item-scroll > .o-fullpage__item{
   flex:0 0 auto;
@@ -1533,7 +1532,6 @@ html{
   transition:background-color 300ms ease-in-out;
   -webkit-user-select:none;
   -moz-user-select:none;
-  -ms-user-select:none;
   user-select:none;
   vertical-align:middle;
   white-space:nowrap;
@@ -1570,7 +1568,7 @@ html{
 }
 .c-button.c-button--primary{
   background-color:#005AB8;
-  background-image:linear-gradient(to bottom, #0c6ecf, #0059b8);
+  background-image:linear-gradient(to bottom, rgb(12, 110, 207), rgb(0, 89, 184));
   border-color:rgba(0, 0, 0, 0.25);
   color:rgba(255, 255, 255, 0.9);
   text-shadow:0 1px 0 rgba(0, 0, 0, 0.4);
@@ -1579,11 +1577,11 @@ html{
   fill:#FFF;
 }
 .c-button.c-button--primary:hover, .c-button.c-button--primary:focus, .c-button.c-button--primary.has-focus{
-  background-image:linear-gradient(to bottom, #1274d5, #065fbe);
+  background-image:linear-gradient(to bottom, rgb(18, 116, 213), rgb(6, 95, 190));
   color:rgba(255, 255, 255, 0.96);
 }
 .c-button.c-button--primary:active, .c-button.c-button--primary.is-active{
-  background-image:linear-gradient(to bottom, #065fbe 4%, #1274d5 85%);
+  background-image:linear-gradient(to bottom, rgb(6, 95, 190) 4%, rgb(18, 116, 213) 85%);
   border-color:rgba(0, 0, 0, 0.25);
   box-shadow:0 1px 0 rgba(0, 0, 0, 0.05), inset 0 1px 3px rgba(0, 0, 0, 0.15);
   color:rgba(255, 255, 255, 0.85);
@@ -1780,7 +1778,6 @@ html{
   text-shadow:0 1px 0 rgba(255, 255, 255, 0.6);
   -webkit-user-select:none;
   -moz-user-select:none;
-  -ms-user-select:none;
   user-select:none;
 }
 
@@ -1830,7 +1827,7 @@ html{
 
 .btn-primary{
   background-color:#005AB8;
-  background-image:linear-gradient(to bottom, #0c6ecf, #0059b8);
+  background-image:linear-gradient(to bottom, rgb(12, 110, 207), rgb(0, 89, 184));
   border-color:rgba(0, 0, 0, 0.25);
   color:rgba(255, 255, 255, 0.9) !important;
   text-shadow:0 1px 0 rgba(0, 0, 0, 0.4);
@@ -1838,13 +1835,13 @@ html{
 
 .btn-primary:hover,
 .btn-primary:focus{
-  background-image:linear-gradient(to bottom, #1274d5, #065fbe);
+  background-image:linear-gradient(to bottom, rgb(18, 116, 213), rgb(6, 95, 190));
   color:rgba(255, 255, 255, 0.96);
 }
 
 .btn-primary:active,
 .btn-primary.is-active{
-  background-image:linear-gradient(to bottom, #065fbe 4%, #1274d5 85%);
+  background-image:linear-gradient(to bottom, rgb(6, 95, 190) 4%, rgb(18, 116, 213) 85%);
   border-color:rgba(0, 0, 0, 0.25);
   box-shadow:0 1px 0 rgba(0, 0, 0, 0.05), inset 0 1px 3px rgba(0, 0, 0, 0.15);
   color:rgba(255, 255, 255, 0.85);
@@ -1852,7 +1849,7 @@ html{
 
 .btn-danger{
   background-color:#D00;
-  background-image:linear-gradient(to bottom, #ee0000 15%, #dd0000 40%);
+  background-image:linear-gradient(to bottom, rgb(238, 0, 0) 15%, rgb(221, 0, 0) 40%);
   border-color:#B00;
   color:rgba(255, 255, 255, 0.85);
   text-shadow:0 1px 0 rgba(0, 0, 0, 0.25);
@@ -1861,14 +1858,14 @@ html{
 .btn-danger:hover,
 .btn-danger:focus{
   background-color:#D00;
-  background-image:linear-gradient(to bottom, #f60000 15%, #e60000 40%);
+  background-image:linear-gradient(to bottom, rgb(246, 0, 0) 15%, rgb(230, 0, 0) 40%);
   color:rgba(255, 255, 255, 0.9);
 }
 
 .btn-danger:active,
 .btn-danger.is-active{
   background-color:#D00;
-  background-image:linear-gradient(to bottom, #e60000 4%, #f60000 85%);
+  background-image:linear-gradient(to bottom, rgb(230, 0, 0) 4%, rgb(246, 0, 0) 85%);
   border-color:rgba(0, 0, 0, 0.25);
   box-shadow:0 1px 0 rgba(0, 0, 0, 0.05), inset 0 1px 3px rgba(0, 0, 0, 0.15);
   color:rgba(255, 255, 255, 0.8);
@@ -2851,7 +2848,7 @@ label.checkbox{
 
 .input-checks-row .hidden-check:checked + .hidden-check-label{
   background-color:#005AB8;
-  background-image:linear-gradient(to bottom, #0c6ecf 15%, #0059b8 40%);
+  background-image:linear-gradient(to bottom, rgb(12, 110, 207) 15%, rgb(0, 89, 184) 40%);
   border-bottom-color:rgba(0, 0, 0, 0.5);
   border-color:rgba(0, 0, 0, 0.25);
   border-radius:3px;
@@ -3592,7 +3589,6 @@ label.checkbox{
   max-height:211px;
   overflow-x:hidden;
   overflow-y:auto;
-  -ms-scroll-chaining:none;
   overscroll-behavior:contain;
 }
 
@@ -3610,7 +3606,6 @@ label.checkbox{
   max-height:365px;
   overflow-x:hidden;
   overflow-y:auto;
-  -ms-scroll-chaining:none;
   overscroll-behavior:contain;
 }
 
@@ -6543,8 +6538,7 @@ th.cell-center{
 .panel-nav .active-tab a,
 .panel-subnav .active-tab a{
   background-color:#005AB8;
-  background-image:linear-gradient(to bottom, #0c6ecf 15%, #0059b8 40%);
-  background:green;
+  background-image:linear-gradient(to bottom, rgb(12, 110, 207) 15%, rgb(0, 89, 184) 40%);
   border:1px solid rgba(0, 0, 0, 0.25);
   border-bottom-color:rgba(0, 0, 0, 0.5);
   border-radius:3px;
@@ -6557,7 +6551,7 @@ th.cell-center{
 
 .panel-subnav .active-tab a{
   background-color:#404040;
-  background-image:linear-gradient(to bottom, #575757 15%, #404040 40%);
+  background-image:linear-gradient(to bottom, rgb(87, 87, 87) 15%, rgb(64, 64, 64) 40%);
   border-bottom-color:rgba(0, 0, 0, 0.7);
   color:rgba(255, 255, 255, 0.86);
 }
@@ -6652,14 +6646,12 @@ th.cell-center{
 .scroll-v{
   overflow-x:hidden;
   overflow-y:auto;
-  -ms-scroll-chaining:none;
   overscroll-behavior:contain;
   position:relative;
 }
 
 .scroll-vh{
   overflow:auto;
-  -ms-scroll-chaining:none;
   overscroll-behavior:contain;
   position:relative;
 }
@@ -6673,7 +6665,6 @@ th.cell-center{
   max-height:30vh;
 }
 .scroll-v--chain{
-  -ms-scroll-chaining:chained;
   overscroll-behavior:auto;
 }
 .scroll-v--max-height-1\/3{
@@ -6866,13 +6857,13 @@ span:hover + .team-actions a{
 }
 .merge-in{
   background-color:#DDFFE0;
-  color:#199c3d;
+  color:rgb(25, 156, 61);
   position:relative;
 }
 
 .merge-out{
   background-color:#FBEAEA;
-  color:#e64a4d;
+  color:rgb(230, 74, 77);
   position:relative;
 }
 
@@ -6884,7 +6875,7 @@ span:hover + .team-actions a{
 
 .merge-nodiff{
   background-color:rgba(213, 227, 247, 0.6);
-  color:#626a81;
+  color:rgb(98, 106, 129);
   position:relative;
 }
 
@@ -7391,7 +7382,6 @@ span:hover + .team-actions a{
 .sidepanel-main{
   flex:1 1 0;
   overflow-y:auto;
-  -ms-scroll-chaining:none;
   overscroll-behavior:contain;
 }
 
@@ -7614,7 +7604,6 @@ span:hover + .team-actions a{
 .collapse-trigger{
   -webkit-user-select:none;
   -moz-user-select:none;
-  -ms-user-select:none;
   user-select:none;
 }
 
@@ -7649,7 +7638,6 @@ span:hover + .team-actions a{
 .item-picker-list{
   -webkit-user-select:none;
   -moz-user-select:none;
-  -ms-user-select:none;
   user-select:none;
 }
 
@@ -8069,7 +8057,6 @@ span:hover + .team-actions a{
   overflow:hidden;
   -webkit-user-select:none;
   -moz-user-select:none;
-  -ms-user-select:none;
   user-select:none;
   width:300px;
 }
@@ -9600,7 +9587,6 @@ td.availability.conflict .add-actual{
   width:100%;
   -webkit-user-select:none;
   -moz-user-select:none;
-  -ms-user-select:none;
   user-select:none;
   box-sizing:border-box;
   white-space:normal;
@@ -10054,7 +10040,7 @@ td.availability.conflict .add-actual{
 }
 
 .CalendarDay__default:hover{
-  color:white;
+  color:rgb(255, 255, 255);
 }
 
 .CalendarDay__default:hover:after{
@@ -10210,7 +10196,7 @@ td.availability.conflict .add-actual{
 }
 
 .CalendarDay__highlighted_calendar.CalendarDay__blocked_calendar.CalendarDay__blocked_out_of_range{
-  color:white;
+  color:rgb(255, 255, 255);
 }
 
 .CalendarDay__highlighted_calendar.CalendarDay__blocked_calendar.CalendarDay__blocked_out_of_range:after{
@@ -10218,11 +10204,11 @@ td.availability.conflict .add-actual{
 }
 
 .CalendarDay__highlighted_calendar.CalendarDay__blocked_calendar.CalendarDay__blocked_out_of_range.CalendarDay__today:before{
-  border-color:white;
+  border-color:rgb(255, 255, 255);
 }
 
 .CalendarDay__highlighted_calendar.CalendarDay__blocked_calendar.CalendarDay__selected{
-  color:white;
+  color:rgb(255, 255, 255);
   cursor:pointer;
 }
 .CalendarDay__highlighted_calendar.CalendarDay__blocked_calendar.CalendarDay__selected:after{
@@ -10233,12 +10219,12 @@ td.availability.conflict .add-actual{
 }
 
 .CalendarDay__highlighted_calendar.CalendarDay__blocked_calendar.CalendarDay__selected.CalendarDay__today:before{
-  border-color:white;
+  border-color:rgb(255, 255, 255);
   pointer-events:none;
 }
 
 .CalendarDay__selected.CalendarDay__today:before{
-  border-color:white;
+  border-color:rgb(255, 255, 255);
 }
 
 .CalendarMonth{
@@ -10247,7 +10233,6 @@ td.availability.conflict .add-actual{
   vertical-align:top;
   -webkit-user-select:none;
   -moz-user-select:none;
-  -ms-user-select:none;
   user-select:none;
 }
 
@@ -10518,7 +10503,6 @@ td.availability.conflict .add-actual{
 .DateInput_input__readOnly{
   -webkit-user-select:none;
   -moz-user-select:none;
-  -ms-user-select:none;
   user-select:none;
 }
 
@@ -10752,7 +10736,7 @@ td.availability.conflict .add-actual{
   background:#e6e6e6;
 }
 .publishDatePicker .CalendarDay__highlighted_calendar.CalendarDay__blocked_calendar.CalendarDay__blocked_out_of_range{
-  color:white;
+  color:rgb(255, 255, 255);
 }
 
 .publishDatePicker .CalendarDay__highlighted_calendar.CalendarDay__blocked_calendar.CalendarDay__blocked_out_of_range:after{
@@ -10760,7 +10744,7 @@ td.availability.conflict .add-actual{
 }
 
 .publishDatePicker .CalendarDay__highlighted_calendar.CalendarDay__blocked_calendar.CalendarDay__blocked_out_of_range.CalendarDay__today:before{
-  border-color:white;
+  border-color:rgb(255, 255, 255);
 }
 .revokeDatePicker .teamplanner-revoke_day:after{
   background:transparent;
@@ -10786,11 +10770,11 @@ td.availability.conflict .add-actual{
 }
 
 .revokeDatePicker .CalendarDay__default.CalendarDay__highlighted_calendar.CalendarDay__blocked_out_of_range{
-  color:white;
+  color:rgb(255, 255, 255);
 }
 .revokeDatePicker .CalendarDay__selected.CalendarDay__selected_start,
 .revokeDatePicker .CalendarDay__selected.CalendarDay__selected_start:hover{
-  color:white;
+  color:rgb(255, 255, 255);
 }
 
 .revokeDatePicker .CalendarDay__selected.CalendarDay__selected_start:after,
@@ -10800,7 +10784,7 @@ td.availability.conflict .add-actual{
 
 .revokeDatePicker .CalendarDay__selected.CalendarDay__selected_end,
 .revokeDatePicker .CalendarDay__selected.CalendarDay__selected_end:hover{
-  color:white;
+  color:rgb(255, 255, 255);
 }
 
 .revokeDatePicker .CalendarDay__selected.CalendarDay__selected_end:after,
@@ -10810,7 +10794,7 @@ td.availability.conflict .add-actual{
 
 .revokeDatePicker .CalendarDay__selected.CalendarDay__selected_start.CalendarDay__selected.CalendarDay__selected_end,
 .revokeDatePicker .CalendarDay__selected.CalendarDay__selected_star.CalendarDay__selected.CalendarDay__selected_endt:hover{
-  color:white;
+  color:rgb(255, 255, 255);
 }
 
 .revokeDatePicker .CalendarDay__selected.CalendarDay__selected_start.CalendarDay__selected.CalendarDay__selected_end:after,
@@ -10826,7 +10810,7 @@ td.availability.conflict .add-actual{
 }
 
 .revokeDatePicker .CalendarDay__selected_span:hover{
-  color:white;
+  color:rgb(255, 255, 255);
 }
 
 .revokeDatePicker .CalendarDay__selected_span:hover:after{
@@ -10844,7 +10828,7 @@ td.availability.conflict .add-actual{
 }
 .revokeDatePicker .CalendarDay__highlighted_calendar.CalendarDay__selected_span,
 .revokeDatePicker .CalendarDay__highlighted_calendar.CalendarDay__selected_span:hover{
-  color:white;
+  color:rgb(255, 255, 255);
 }
 
 .revokeDatePicker .CalendarDay__highlighted_calendar.CalendarDay__selected_span:after,
@@ -10856,7 +10840,7 @@ td.availability.conflict .add-actual{
 }
 
 .revokeDatePicker .CalendarDay__hovered_offset:hover{
-  color:white;
+  color:rgb(255, 255, 255);
 }
 
 .revokeDatePicker .CalendarDay__hovered_offset:hover:after{
@@ -11100,8 +11084,7 @@ td.availability.conflict .add-actual{
 .c-event-shutters.is-open .c-event-shutters__right-shutter > *, .c-event-shutters.is-on-hover:hover .c-event-shutters__right-shutter > *{
   visibility:visible;
 }
-.c-event-shutters.is-closed{
-}
+.c-event-shutters.is-closed{ }
 .c-event-shutters.is-active, .c-event-shutters.is-on-active:active{
   background-color:#FFF;
   border:1px solid #065FBE;
@@ -11146,8 +11129,7 @@ td.availability.conflict .add-actual{
 .c-event-shutters--extended-2.is-open .c-event-shutters__right-shutter > *, .c-event-shutters--extended-2.is-on-hover:hover .c-event-shutters__right-shutter > *{
   visibility:visible;
 }
-.c-event-shutters--extended-2.is-closed{
-}
+.c-event-shutters--extended-2.is-closed{ }
 .c-event-shutters--extended-2.is-active .c-event-shutters__left-shutter > *, .c-event-shutters--extended-2.is-on-active:active .c-event-shutters__left-shutter > *{
   display:block;
 }
@@ -11362,7 +11344,7 @@ td.availability.conflict .add-actual{
 }
 
 .c-board.c-board--tripple.is-collapsed .c-board__panel-wrapper:not(.is-collapsed){
-  width:calc( ( 100% - 24px ) / 2 );
+  width:calc(( 100% - 24px ) / 2);
 }
 
 .c-board__panel-wrapper.is-collapsed{
@@ -11417,7 +11399,7 @@ td.availability.conflict .add-actual{
 .c-dataview-list__overlay{
   width:100%;
   height:100%;
-  background:linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, white 21%, white 50%, white 76%, white 77%, rgba(255, 255, 255, 0.9) 100%);
+  background:linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgb(255, 255, 255) 21%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 76%, rgb(255, 255, 255) 77%, rgba(255, 255, 255, 0.9) 100%);
 }
 .c-dataview-list__item:not(.no-hover):hover .c-dataview-list__item-title{
   color:#1B62DA;
@@ -12577,7 +12559,6 @@ div.alert{
   max-height:350px;
   overflow-x:hidden;
   overflow-y:auto;
-  -ms-scroll-chaining:none;
   overscroll-behavior:contain;
   padding-right:12px;
 }
@@ -13575,6 +13556,9 @@ div.alert{
   text-indent:-9999in;
   width:27px;
 }
+.color--active{
+  overflow:visible !important;
+}
 
 .edit-color{
   position:relative;
@@ -14056,7 +14040,7 @@ div.alert{
 }
 
 #undoredo .active:active{
-  background-image:linear-gradient(to bottom, #0c6ecf 15%, #0059b8 40%);
+  background-image:linear-gradient(to bottom, rgb(12, 110, 207) 15%, rgb(0, 89, 184) 40%);
 }
 
 #undoredo.undo .undo,
@@ -14887,7 +14871,7 @@ table.finder{
 
 .finder th.droppable-left::before,
 .finder th.droppable-right::before{
-  background:linear-gradient(to bottom, #515151, rgba(81, 81, 81, 0));
+  background:linear-gradient(to bottom, rgb(81, 81, 81), rgba(81, 81, 81, 0));
   content:"";
   height:500px;
   left:-1px;
@@ -15027,11 +15011,11 @@ tbody tr.selected td{
 
 tbody tr.selected .svg-icon-icon-read-only-checkbox-unchecked,
 tbody tr.selected .svg-icon-icon-read-only-checkbox-checked{
-  fill:white;
+  fill:rgb(255, 255, 255);
 }
 
 tbody tr.selected .svg-icon--invert-on-selected > svg{
-  fill:white;
+  fill:rgb(255, 255, 255);
 }
 
 tbody tr.selected td{
@@ -18232,7 +18216,6 @@ div.add-item{
   padding:5px 750px 210px 5px;
   -webkit-user-select:none;
   -moz-user-select:none;
-  -ms-user-select:none;
   user-select:none;
 }
 #calendar.team-planner{
@@ -18460,7 +18443,7 @@ div.add-item{
 }
 
 #cal-menu-datepicker .cal-menu-datepicker__datepicker-trigger:hover svg[class^=svg-icon]{
-  fill:#555555;
+  fill:rgb(85, 85, 85);
 }
 
 #cal-menu-fetch{
@@ -24949,9 +24932,9 @@ div.add-item{
 
 .daycal-schedule{
   background-color:rgba(242, 182, 228, 0.75);
-  border-left:4px solid #d587c4;
+  border-left:4px solid rgb(213, 135, 196);
   box-sizing:border-box;
-  color:#ab309a;
+  color:rgb(171, 48, 154);
   font-size:11px;
   height:60px;
   line-height:1.1;
@@ -24963,8 +24946,8 @@ div.add-item{
 
 .daycal-schedule.actual{
   background-color:rgba(146, 219, 255, 0.75);
-  border-color:#00acf6;
-  color:#008ac7 !important;
+  border-color:rgb(0, 172, 246);
+  color:rgb(0, 138, 199) !important;
 }
 
 .daycal-schedule__preparation{
@@ -25090,20 +25073,20 @@ div.add-item{
 .daycal-schedule.ui-selected,
 .daycal-schedule.ui-selected.unavailable{
   background-color:rgba(0, 107, 218, 0.92);
-  border-color:#006bda;
+  border-color:rgb(0, 107, 218);
   color:rgba(255, 255, 255, 0.75);
   z-index:100;
 }
 
 .daycal-schedule.unavailable{
   background-color:rgba(238, 112, 112, 0.75);
-  border-color:#ee5555;
+  border-color:rgb(238, 85, 85);
   color:rgba(204, 0, 0, 0.75);
 }
 
 .daycal-schedule.ui-selected.unavailable{
   background-color:rgba(238, 0, 0, 0.75);
-  border-color:#ee0000;
+  border-color:rgb(238, 0, 0);
 }
 
 .daycal-break.ui-selected{
@@ -25147,7 +25130,7 @@ div.add-item{
 
 .daycal-schedule.ui-selected .name,
 .daycal-schedule.ui-selected.unavailable .name{
-  color:white;
+  color:rgb(255, 255, 255);
 }
 
 .daycal-schedule .task{
@@ -25331,7 +25314,7 @@ div.add-item{
 }
 
 .tp-counters--closed{
-  transform:translateY(calc(100%));
+  transform:translateY(100%);
 }
 
 .tp-counters *{
@@ -25368,7 +25351,7 @@ div.add-item{
 }
 
 .tp-counters__header{
-  background-color:white;
+  background-color:rgb(255, 255, 255);
   border-radius:4px 4px 0 0;
   box-shadow:3px -3px 10px 0px rgba(0, 0, 0, 0.3);
   color:#323232;
@@ -25380,7 +25363,6 @@ div.add-item{
   top:-25px;
   -webkit-user-select:none;
   -moz-user-select:none;
-  -ms-user-select:none;
   user-select:none;
   white-space:nowrap;
 }
@@ -25425,7 +25407,7 @@ div.add-item{
 }
 
 .tp-counters__column{
-  background-color:white;
+  background-color:rgb(255, 255, 255);
   box-sizing:border-box;
   display:block;
   position:relative;
@@ -25704,7 +25686,6 @@ div.add-item{
   flex:none;
   overflow-x:hidden;
   overflow-y:auto;
-  -ms-scroll-chaining:none;
   overscroll-behavior:contain;
   padding:40px;
 }
@@ -25876,7 +25857,7 @@ div.add-item{
 }
 
 .tp-stats .autoalign > span:last-child:not(:first-child):hover{
-  background-color:#f8f7f5;
+  background-color:rgb(248, 247, 245);
   overflow:visible;
   padding-left:5px;
   position:absolute;
@@ -26061,6 +26042,11 @@ div.add-item{
   top:15px !important;
 }
 
+.panel.global-search.themis-finder{
+  margin-left:-400px;
+  width:800px;
+}
+
 .panel.panel--horizontal-overflow{
   white-space:nowrap;
 }
@@ -26243,7 +26229,6 @@ div.add-item{
   position:absolute;
   -webkit-user-select:none;
   -moz-user-select:none;
-  -ms-user-select:none;
   user-select:none;
   z-index:30000;
 }
@@ -26932,7 +26917,6 @@ path.link.parent-selected{
   .panel:not(.panel--fullscreen):not(.panel--fullscreen-padded):not(.panel--modal):not(.panel--modal-repsonsive){
     max-height:77vh;
   }
-
   .panel.global-search{
     top:3vh;
   }
@@ -26950,11 +26934,9 @@ path.link.parent-selected{
     top:0;
     width:auto;
   }
-
   .panel--modal--wide .panel-main{
     max-height:none;
   }
-
   .control-label{
     display:block;
     float:none;
@@ -26963,7 +26945,6 @@ path.link.parent-selected{
     text-align:left;
     width:auto;
   }
-
   .controls{
     margin-left:0;
   }
@@ -27833,23 +27814,23 @@ path.link.parent-selected{
   --max-width-base:960px;
 }
 .u-max-width-1{
-  max-width:calc(var(--max-width-base) * 1/6) !important;
+  max-width:calc(var(--max-width-base) * 1 / 6) !important;
 }
 
 .u-max-width-2{
-  max-width:calc(var(--max-width-base) * 2/6) !important;
+  max-width:calc(var(--max-width-base) * 2 / 6) !important;
 }
 
 .u-max-width-3{
-  max-width:calc(var(--max-width-base) * 3/6) !important;
+  max-width:calc(var(--max-width-base) * 3 / 6) !important;
 }
 
 .u-max-width-4{
-  max-width:calc(var(--max-width-base) * 4/6) !important;
+  max-width:calc(var(--max-width-base) * 4 / 6) !important;
 }
 
 .u-max-width-5{
-  max-width:calc(var(--max-width-base) * 5/6) !important;
+  max-width:calc(var(--max-width-base) * 5 / 6) !important;
 }
 
 .u-max-width-6{
