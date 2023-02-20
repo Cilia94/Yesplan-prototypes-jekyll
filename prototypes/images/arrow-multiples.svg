@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="8px" height="13px" viewBox="0 0 8 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>arrow-multiples</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="arrow-multiples" sketch:type="MSArtboardGroup" fill="#000000">
+            <path d="M2.0727324,8 L2.07124494,14.0795894 L6.02314182,11.0343638 L2.0727324,8 Z" id="Path-4" sketch:type="MSShapeGroup" transform="translate(4.000000, 11.000000) rotate(-270.000000) translate(-4.000000, -11.000000) "></path>
+            <path d="M2.0727324,0 L2.07124494,6.07958942 L6.02314182,3.03436383 L2.0727324,0 Z" id="Path-4" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

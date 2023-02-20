@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="11px" height="55px" viewBox="0 0 11 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>group-share</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="group-share" sketch:type="MSArtboardGroup">
+            <circle id="Oval-1" stroke="#979797" stroke-width="2" fill="#9B9B9B" sketch:type="MSShapeGroup" cx="5.5" cy="5.5" r="4.5"></circle>
+            <circle id="Oval-1" stroke="#979797" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="5.5" cy="16.5" r="4.5"></circle>
+            <circle id="Oval-1" stroke="#979797" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="5.5" cy="27.5" r="4.5"></circle>
+            <circle id="Oval-1" stroke="#979797" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="5.5" cy="38.5" r="4.5"></circle>
+            <circle id="Oval-1" stroke="#979797" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="5.5" cy="49.5" r="4.5"></circle>
+            <path d="M1.27804654,27.5 L10.3203153,27.5 L9.32772155,29.9808453 L8.21004297,30.9147622 L6.15879886,31.9112213 L4.20874664,31.8760852 L2.92698259,31.1333086 L1.89925236,29.9021405 L1.27804654,29.0269008 L1.27804654,27.5 Z" id="Path-1" fill="#9B9B9B" sketch:type="MSShapeGroup"></path>
+            <path d="M1.34831869,15.0434453 L10.0775254,14.860035 L10.1161751,17.02512 L9.25253035,19.048958 L8.25607123,20.0766882 L6.17355601,20.8619795 L4.29342458,21.0144701 L1.91717176,19.0682828 L1.15120531,17.0707969 L1.34831869,15.0434453 Z" id="Path-2" fill="#9B9B9B" sketch:type="MSShapeGroup"></path>
+            <path d="M1.37994116,40.0968729 L10.1207428,40.0459256 L8.67910959,42.0736286 L7.34253326,42.8476763 L5.5,43.0040319 L4.18098914,42.9450033 L2.93471252,42.0929534 L1.96952452,41.1003593 L1.37994116,40.0968729 Z" id="Path-3" fill="#9B9B9B" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

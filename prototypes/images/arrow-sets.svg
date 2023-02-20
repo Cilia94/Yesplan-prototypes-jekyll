@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="10px" height="22px" viewBox="0 0 10 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>arrow-sets</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="arrow-sets" sketch:type="MSArtboardGroup" fill="#333333">
+            <path d="M0.00125558036,14.0048828 L10.0012556,13.9970703 L5.00125558,21.9644252 L0.00125558036,14.0048828 Z" id="Path-11" sketch:type="MSShapeGroup"></path>
+            <path d="M0.00125558036,2.00488281 L10.0012556,1.99707031 L5.00125558,9.96442522 L0.00125558036,2.00488281 Z" id="Path-11" sketch:type="MSShapeGroup" transform="translate(5.001256, 5.964425) rotate(-90.000000) translate(-5.001256, -5.964425) "></path>
+        </g>
+    </g>
+</svg>

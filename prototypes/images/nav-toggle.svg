@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="17px" height="12px" viewBox="0 0 17 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>nav-toggle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Dashboard-(desktop)" sketch:type="MSArtboardGroup" transform="translate(-386.000000, -29.000000)" fill="#ffffff">
+            <path d="M395,29 L403,29 L403,31 L395,31 L395,29 Z M386,35.0237968 L391.592984,40.7445208 L393.134938,39.2025677 L389.93237,36 L403,36 L403,34 L389.861302,34 L393.134938,30.7263645 L391.592984,29.1844113 L386,35.0237968 Z M395,39 L403,39 L403,41 L395,41 L395,39 Z" id="nav-toggle" sketch:type="MSShapeGroup" transform="translate(394.500000, 35.000000) scale(-1, 1) translate(-394.500000, -35.000000) "></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="23px" viewBox="0 0 20 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>arrow-prev-next</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="arrow-prev-next" sketch:type="MSArtboardGroup">
+            <path d="M13.0407366,5.99986049 L17,1.99707031 L17,10.0365513 L13.0407366,5.99986049 Z" id="Path-6" fill="#666666" sketch:type="MSShapeGroup" transform="translate(15.000000, 6.000000) rotate(-180.000000) translate(-15.000000, -6.000000) "></path>
+            <path d="M13.0407366,16.9998605 L17,12.9970703 L17,21.0365513 L13.0407366,16.9998605 Z" id="Path-6" fill="#0D5CB5" sketch:type="MSShapeGroup" transform="translate(15.000000, 17.000000) rotate(-180.000000) translate(-15.000000, -17.000000) "></path>
+            <path d="M3.04073661,16.9998605 L7,12.9970703 L7,21.0365513 L3.04073661,16.9998605 Z" id="Path-6" fill="#0D5CB5" sketch:type="MSShapeGroup"></path>
+            <path d="M3.04073661,5.99986049 L7,1.99707031 L7,10.0365513 L3.04073661,5.99986049 Z" id="Path-6" fill="#666666" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

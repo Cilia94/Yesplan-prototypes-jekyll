@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1 (8751) - http://www.bohemiancoding.com/sketch -->
+    <title>suspended</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="suspended" sketch:type="MSArtboardGroup" fill="#F00000">
+            <path d="M2.55381909,3.96803265 C2.20192939,4.56354591 2,5.25819138 2,6 C2,8.209139 3.790861,10 6,10 C6.74180862,10 7.43645409,9.79807061 8.03196735,9.44618091 L2.55381909,3.96803265 Z M3.96803265,2.55381909 C4.56354591,2.20192939 5.25819138,2 6,2 C8.209139,2 10,3.790861 10,6 C10,6.74180862 9.79807061,7.43645409 9.44618091,8.03196735 L3.96803265,2.55381909 Z M12,6 C12,2.6862915 9.3137085,0 6,0 C2.6862915,0 0,2.6862915 0,6 C0,9.3137085 2.6862915,12 6,12 C9.3137085,12 12,9.3137085 12,6 Z" id="Rectangle-3" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

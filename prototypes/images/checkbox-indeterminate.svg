@@ -1,0 +1,11 @@
+
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <g id="Group" fill="#000000" fill-opacity="0.3" fill-rule="nonzero">
+                <path d="M1,2.997152 L1,2.997152 L1,9.002848 C1,10.105994 1.894057,11 2.997152,11 L9.002848,11 C10.1059941,11 11,10.105943 11,9.002848 L11,2.997152 C11,1.894006 10.105943,1 9.002848,1 L2.997152,1 C1.8940059,1 1,1.894057 1,2.997152 L1,2.997152 Z M2.997152,0 L9.002848,0 C10.6581293,0 12,1.341623 12,2.997152 L12,9.002848 C12,10.658129 10.6583772,12 9.002848,12 L2.997152,12 C1.3418707,12 0,10.658377 0,9.002848 L0,2.997152 C0,1.341871 1.3416228,0 2.997152,0 Z" id="Shape"></path>
+            </g>
+            <rect id="Rectangle" fill="#FFFFFF" x="2" y="5" width="8" height="2"></rect>
+        </g>
+    </g>
+</svg>

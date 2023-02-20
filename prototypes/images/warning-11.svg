@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="11px" height="11px" viewBox="0 0 11 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>warning-11</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.5,11 C8.53756612,11 11,8.53756612 11,5.5 C11,2.46243388 8.53756612,0 5.5,0 C2.46243388,0 0,2.46243388 0,5.5 C0,8.53756612 2.46243388,11 5.5,11 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="11" height="11" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="warning-11">
+            <use id="Oval-3-Copy-9" stroke="#BFA630" mask="url(#mask-2)" stroke-width="2" fill="#FFDD40" xlink:href="#path-1"></use>
+            <g id="questionmark" transform="translate(3.000000, 2.000000)" fill="#403710">
+                <rect id="Rectangle" x="2" y="6" width="1" height="1"></rect>
+                <rect id="Rectangle-Copy" x="2" y="4" width="1" height="1"></rect>
+                <rect id="Rectangle-Copy-2" x="3" y="3" width="1" height="1"></rect>
+                <rect id="Rectangle-Copy-3" x="4" y="2" width="1" height="1"></rect>
+                <rect id="Rectangle-Copy-4" x="4" y="1" width="1" height="1"></rect>
+                <rect id="Rectangle-Copy-5" x="3" y="0" width="1" height="1"></rect>
+                <rect id="Rectangle-Copy-6" x="2" y="0" width="1" height="1"></rect>
+                <rect id="Rectangle-Copy-7" x="1" y="0" width="1" height="1"></rect>
+                <rect id="Rectangle-Copy-8" x="0" y="1" width="1" height="1"></rect>
+            </g>
+        </g>
+        <g id="slices" transform="translate(-2629.000000, -21.000000)"></g>
+    </g>
+</svg>

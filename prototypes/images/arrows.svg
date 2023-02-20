@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="10px" viewBox="0 0 24 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>arrows</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="arrows" sketch:type="MSArtboardGroup">
+            <path d="M4,5.92459645 L4,0 L8,3.06338801 L4,5.92459645 Z" id="Path-17" fill="#DDDDDD" sketch:type="MSShapeGroup"></path>
+            <path d="M8,5.92459645 L8,0 L12,3.06338801 L8,5.92459645 Z" id="Path-17" fill="#68A81E" sketch:type="MSShapeGroup"></path>
+            <path d="M12,5.92459645 L12,0 L16,3.06338801 L12,5.92459645 Z" id="Path-17" fill="#FD8B25" sketch:type="MSShapeGroup"></path>
+            <path d="M1,10.9245964 L1,5 L5,8.06338801 L1,10.9245964 Z" id="Path-17" fill="#333333" sketch:type="MSShapeGroup" transform="translate(3.000000, 8.000000) rotate(-270.000000) translate(-3.000000, -8.000000) "></path>
+            <path d="M7,10.9245964 L7,5 L11,8.06338801 L7,10.9245964 Z" id="Path-17" fill="#DDDDDD" sketch:type="MSShapeGroup" transform="translate(9.000000, 8.000000) rotate(-270.000000) translate(-9.000000, -8.000000) "></path>
+            <path d="M13,10.9245964 L13,5 L17,8.06338801 L13,10.9245964 Z" id="Path-17" fill="#68A81E" sketch:type="MSShapeGroup" transform="translate(15.000000, 8.000000) rotate(-270.000000) translate(-15.000000, -8.000000) "></path>
+            <path d="M19,10.9245964 L19,5 L23,8.06338801 L19,10.9245964 Z" id="Path-17" fill="#FD8B25" sketch:type="MSShapeGroup" transform="translate(21.000000, 8.000000) rotate(-270.000000) translate(-21.000000, -8.000000) "></path>
+            <path d="M3.55271368e-15,5.92459645 L0,0 L4,3.06338801 L3.55271368e-15,5.92459645 Z" id="Path-17" fill="#333333" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

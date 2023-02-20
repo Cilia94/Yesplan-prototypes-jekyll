@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="7px" height="9px" viewBox="0 0 7 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.3 (7892) - http://www.bohemiancoding.com/sketch -->
+    <title>lock-sm</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M1.70494447,5.03167887 C1.70494447,5.03167887 1.55396615,4.112745 1.70494448,2.83173032 C1.85592284,1.55071564 2.53726064,0.990448384 3.48838928,0.990448193 C4.46599279,0.990448027 5.3414508,1.94070597 5.34145086,3.17376967 L5.34145086,5.03167887"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="lock-sm" sketch:type="MSArtboardGroup">
+            <path d="M2.00591905,4 C0.898080551,4 0,4.8938998 0,6.0048815 L0,6.9951185 C0,8.10238398 0.886554837,9 2.00591905,9 L4.99408095,9 C6.10191945,9 7,8.1061002 7,6.9951185 L7,6.0048815 C7,4.89761602 6.11344516,4 4.99408095,4 L2.00591905,4 Z M3.51642445,5.40829961 C4.20285454,5.4083004 4.1548682,5.89195552 4.06320084,6.14884841 C3.97153349,6.40574131 3.98835775,6.61057281 4.06320084,6.89190673 C4.13804392,7.17324066 4.33054863,7.61119388 3.5740498,7.611194 C2.81755096,7.61119413 2.7794065,7.16486604 2.89509643,6.89190673 C3.01078638,6.61894743 2.97800172,6.34706297 2.89509644,6.14884841 C2.81219116,5.95063384 2.82999435,5.40829884 3.51642445,5.40829961 Z" id="Rectangle-1" fill="#666666" sketch:type="MSShapeGroup"></path>
+            <g id="Path-1">
+                <use stroke="#666666" stroke-width="2" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                <use stroke="none" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

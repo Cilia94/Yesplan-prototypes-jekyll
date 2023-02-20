@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>dock-conflicts</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.93193388,17.2132558 C3.68577242,16.1814753 3.55555556,15.1057069 3.55555556,14 C3.55555556,6.2680135 9.92306134,0 17.7777778,0 C25.6324942,0 32,6.2680135 32,14 C32,21.7319865 25.6324942,28 17.7777778,28 C14.6739993,28 11.8024373,27.0212983 9.46420265,25.3603012 L1.32250179,24.9786589 C0.837564106,24.9559275 0.606458452,24.5786643 0.804936886,24.1390656 L3.93193388,17.2132558 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="31.264942" height="28" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="dock" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main-nav" transform="translate(-447.000000, -52.000000)">
+            <g id="dock-conflicts" transform="translate(449.000000, 56.000000)">
+                <use id="Combined-Shape" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="5.29254" xlink:href="#path-1"></use>
+                <path d="M19.606586,16.2768956 L15.8814815,16.2768956 L15.8814815,6.10909091 L19.606586,6.10909091 L19.606586,16.2768956 Z M17.7346801,21.9757576 C18.7581735,21.9757576 19.5878788,21.1590164 19.5878788,20.1515152 C19.5878788,19.1440139 18.7581735,18.3272727 17.7346801,18.3272727 C16.7111868,18.3272727 15.8814815,19.1440139 15.8814815,20.1515152 C15.8814815,21.1590164 16.7111868,21.9757576 17.7346801,21.9757576 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

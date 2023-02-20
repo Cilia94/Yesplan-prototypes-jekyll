@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="9px" height="9px" viewBox="0 0 9 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>conflict-sm</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <circle id="Oval-1" fill="#FF0000" sketch:type="MSShapeGroup" cx="4.5" cy="4.5" r="4.5"></circle>
+        <path d="M7.16421356,2.50183983 L5.16605339,4.5 L7.16421356,6.49816017 L6.49816017,7.16421356 L4.5,5.16605339 L2.50183983,7.16421356 L1.83578644,6.49816017 L3.83394661,4.5 L1.83578644,2.50183983 L2.50183983,1.83578644 L4.5,3.83394661 L6.49816017,1.83578644 L7.16421356,2.50183983 Z" id="Rectangle-29" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+    </g>
+</svg>
