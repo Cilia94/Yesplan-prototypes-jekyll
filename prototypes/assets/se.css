@@ -41,7 +41,7 @@ g{
 
 pre{
   background-color:#444;
-  color:#f0f0f0;
+  color:rgb(240, 240, 240);
   font-family:"HelveticaNeue-Bold", "Helvetica Neue", Arial, sans-serif;
   font-size:12px;
   font-weight:bold;
@@ -283,7 +283,7 @@ g.permanentselected line{
 .resourcegroupnode pre,
 .datetimenode pre,
 .locationnode pre{
-  color:#f0f0f0;
+  color:rgb(240, 240, 240);
 }
 
 .draggedresourcenode path{
@@ -292,11 +292,11 @@ g.permanentselected line{
 }
 
 .draggedresourcenode text{
-  fill:#f0f0f0;
+  fill:rgb(240, 240, 240);
 }
 
 .draggedresourcenode pre{
-  color:#f0f0f0;
+  color:rgb(240, 240, 240);
 }
 
 .resourceplaceholdernode .amount circle{
