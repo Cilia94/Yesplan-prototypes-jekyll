@@ -16,8 +16,8 @@
   "author": "2Rivers",
   "license": "UNLICENSED",
   "engines": {
-    "node": "16.18.x",
-    "npm": "8.19.x"
+    "node": "16.19.x",
+    "npm": "9.4.x"
   },
   "dependencies": {
     "@emotion/cache": "^10.0.29",
