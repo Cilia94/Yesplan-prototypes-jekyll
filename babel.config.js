@@ -22,7 +22,7 @@ module.exports = function (api) {
         [
           "react-intl",
           {
-            "messagesDir": "./Yesplan/resources/locale/generatedMessages",
+            "messagesDir": "../../Yesplan/resources/locale/generatedMessages",
             "extractFromFormatMessageCall":  true,
             "extractSourceLocation": true,
           }
