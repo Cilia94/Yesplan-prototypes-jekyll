@@ -1,0 +1,6 @@
+Chrome >= 90
+Firefox >= 88
+Safari >= 13
+Edge >= 90
+# Include IE11 such that we target ES5 (for the Excel Add-in)
+IE 11
