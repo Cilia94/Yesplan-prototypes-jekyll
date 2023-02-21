@@ -369,7 +369,7 @@ body{
 
 body.unselectable{
   -webkit-user-select:none;
-  -moz-user-select:none;
+  -ms-user-select:none;
   user-select:none;
 }
 
@@ -565,7 +565,7 @@ html{
   text-shadow:0 1px 0 rgba(255, 255, 255, 0.6);
   transition:background-color 300ms ease-in-out;
   -webkit-user-select:none;
-  -moz-user-select:none;
+  -ms-user-select:none;
   user-select:none;
   vertical-align:middle;
   white-space:nowrap;
@@ -811,7 +811,7 @@ html{
   text-align:center;
   text-shadow:0 1px 0 rgba(255, 255, 255, 0.6);
   -webkit-user-select:none;
-  -moz-user-select:none;
+  -ms-user-select:none;
   user-select:none;
 }
 
@@ -4381,12 +4381,14 @@ th.cell-center{
 .scroll-v{
   overflow-x:hidden;
   overflow-y:auto;
+  -ms-scroll-chaining:none;
   overscroll-behavior:contain;
   position:relative;
 }
 
 .scroll-vh{
   overflow:auto;
+  -ms-scroll-chaining:none;
   overscroll-behavior:contain;
   position:relative;
 }
@@ -4400,6 +4402,7 @@ th.cell-center{
   max-height:30vh;
 }
 .scroll-v--chain{
+  -ms-scroll-chaining:chained;
   overscroll-behavior:auto;
 }
 .scroll-v--max-height-1\/3{

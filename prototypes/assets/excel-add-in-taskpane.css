@@ -163,7 +163,6 @@ body{
 
 body.unselectable{
   -webkit-user-select:none;
-  -moz-user-select:none;
   -ms-user-select:none;
   user-select:none;
 }
@@ -394,7 +393,6 @@ html{
   text-shadow:0 1px 0 rgba(255, 255, 255, 0.6);
   transition:background-color 300ms ease-in-out;
   -webkit-user-select:none;
-  -moz-user-select:none;
   -ms-user-select:none;
   user-select:none;
   vertical-align:middle;
@@ -432,7 +430,7 @@ html{
 }
 .c-button.c-button--primary{
   background-color:#005AB8;
-  background-image:linear-gradient(to bottom, #0c6ecf, #0059b8);
+  background-image:linear-gradient(to bottom, rgb(12, 110, 207), rgb(0, 89, 184));
   border-color:rgba(0, 0, 0, 0.25);
   color:rgba(255, 255, 255, 0.9);
   text-shadow:0 1px 0 rgba(0, 0, 0, 0.4);
@@ -441,11 +439,11 @@ html{
   fill:#FFF;
 }
 .c-button.c-button--primary:hover, .c-button.c-button--primary:focus, .c-button.c-button--primary.has-focus{
-  background-image:linear-gradient(to bottom, #1274d5, #065fbe);
+  background-image:linear-gradient(to bottom, rgb(18, 116, 213), rgb(6, 95, 190));
   color:rgba(255, 255, 255, 0.96);
 }
 .c-button.c-button--primary:active, .c-button.c-button--primary.is-active{
-  background-image:linear-gradient(to bottom, #065fbe 4%, #1274d5 85%);
+  background-image:linear-gradient(to bottom, rgb(6, 95, 190) 4%, rgb(18, 116, 213) 85%);
   border-color:rgba(0, 0, 0, 0.25);
   box-shadow:0 1px 0 rgba(0, 0, 0, 0.05), inset 0 1px 3px rgba(0, 0, 0, 0.15);
   color:rgba(255, 255, 255, 0.85);
@@ -641,7 +639,6 @@ html{
   text-align:center;
   text-shadow:0 1px 0 rgba(255, 255, 255, 0.6);
   -webkit-user-select:none;
-  -moz-user-select:none;
   -ms-user-select:none;
   user-select:none;
 }
@@ -692,7 +689,7 @@ html{
 
 .btn-primary{
   background-color:#005AB8;
-  background-image:linear-gradient(to bottom, #0c6ecf, #0059b8);
+  background-image:linear-gradient(to bottom, rgb(12, 110, 207), rgb(0, 89, 184));
   border-color:rgba(0, 0, 0, 0.25);
   color:rgba(255, 255, 255, 0.9) !important;
   text-shadow:0 1px 0 rgba(0, 0, 0, 0.4);
@@ -700,13 +697,13 @@ html{
 
 .btn-primary:hover,
 .btn-primary:focus{
-  background-image:linear-gradient(to bottom, #1274d5, #065fbe);
+  background-image:linear-gradient(to bottom, rgb(18, 116, 213), rgb(6, 95, 190));
   color:rgba(255, 255, 255, 0.96);
 }
 
 .btn-primary:active,
 .btn-primary.is-active{
-  background-image:linear-gradient(to bottom, #065fbe 4%, #1274d5 85%);
+  background-image:linear-gradient(to bottom, rgb(6, 95, 190) 4%, rgb(18, 116, 213) 85%);
   border-color:rgba(0, 0, 0, 0.25);
   box-shadow:0 1px 0 rgba(0, 0, 0, 0.05), inset 0 1px 3px rgba(0, 0, 0, 0.15);
   color:rgba(255, 255, 255, 0.85);
@@ -714,7 +711,7 @@ html{
 
 .btn-danger{
   background-color:#D00;
-  background-image:linear-gradient(to bottom, #ee0000 15%, #dd0000 40%);
+  background-image:linear-gradient(to bottom, rgb(238, 0, 0) 15%, rgb(221, 0, 0) 40%);
   border-color:#B00;
   color:rgba(255, 255, 255, 0.85);
   text-shadow:0 1px 0 rgba(0, 0, 0, 0.25);
@@ -723,14 +720,14 @@ html{
 .btn-danger:hover,
 .btn-danger:focus{
   background-color:#D00;
-  background-image:linear-gradient(to bottom, #f60000 15%, #e60000 40%);
+  background-image:linear-gradient(to bottom, rgb(246, 0, 0) 15%, rgb(230, 0, 0) 40%);
   color:rgba(255, 255, 255, 0.9);
 }
 
 .btn-danger:active,
 .btn-danger.is-active{
   background-color:#D00;
-  background-image:linear-gradient(to bottom, #e60000 4%, #f60000 85%);
+  background-image:linear-gradient(to bottom, rgb(230, 0, 0) 4%, rgb(246, 0, 0) 85%);
   border-color:rgba(0, 0, 0, 0.25);
   box-shadow:0 1px 0 rgba(0, 0, 0, 0.05), inset 0 1px 3px rgba(0, 0, 0, 0.15);
   color:rgba(255, 255, 255, 0.8);
@@ -1658,7 +1655,7 @@ label.checkbox{
 
 .input-checks-row .hidden-check:checked + .hidden-check-label{
   background-color:#005AB8;
-  background-image:linear-gradient(to bottom, #0c6ecf 15%, #0059b8 40%);
+  background-image:linear-gradient(to bottom, rgb(12, 110, 207) 15%, rgb(0, 89, 184) 40%);
   border-bottom-color:rgba(0, 0, 0, 0.5);
   border-color:rgba(0, 0, 0, 0.25);
   border-radius:3px;
@@ -3022,25 +3019,6 @@ a.icon-recurrence--small:hover{
   color:#1B62DA;
 }
 
-.icon-checkbox{
-  background-color:#FFFFFF;
-  -webkit-mask-image:url(../images/checkbox.svg);
-  mask-image:url(../images/checkbox.svg);
-  -webkit-mask-repeat:no-repeat;
-  mask-repeat:no-repeat;
-  background-image:none;
-}
-
-.icon-checkbox[selected]{
-  -webkit-mask-image:url(../images/checkbox-checked-white.svg);
-  mask-image:url(../images/checkbox-checked-white.svg);
-}
-
-.icon-checkbox[indeterminated=true]{
-  -webkit-mask-image:url(../images/checkbox-indeterminate.svg);
-  mask-image:url(../images/checkbox-indeterminate.svg);
-}
-
 .popover .icon-lock,
 .popover .icon-lock-open{
   background-position-y:-14px;
@@ -3417,7 +3395,6 @@ a.icon-recurrence--small:hover{
   padding:4px 8px;
   width:100%;
   -webkit-user-select:none;
-  -moz-user-select:none;
   -ms-user-select:none;
   user-select:none;
   box-sizing:border-box;
@@ -3872,7 +3849,7 @@ a.icon-recurrence--small:hover{
 }
 
 .CalendarDay__default:hover{
-  color:white;
+  color:rgb(255, 255, 255);
 }
 
 .CalendarDay__default:hover:after{
@@ -4028,7 +4005,7 @@ a.icon-recurrence--small:hover{
 }
 
 .CalendarDay__highlighted_calendar.CalendarDay__blocked_calendar.CalendarDay__blocked_out_of_range{
-  color:white;
+  color:rgb(255, 255, 255);
 }
 
 .CalendarDay__highlighted_calendar.CalendarDay__blocked_calendar.CalendarDay__blocked_out_of_range:after{
@@ -4036,11 +4013,11 @@ a.icon-recurrence--small:hover{
 }
 
 .CalendarDay__highlighted_calendar.CalendarDay__blocked_calendar.CalendarDay__blocked_out_of_range.CalendarDay__today:before{
-  border-color:white;
+  border-color:rgb(255, 255, 255);
 }
 
 .CalendarDay__highlighted_calendar.CalendarDay__blocked_calendar.CalendarDay__selected{
-  color:white;
+  color:rgb(255, 255, 255);
   cursor:pointer;
 }
 .CalendarDay__highlighted_calendar.CalendarDay__blocked_calendar.CalendarDay__selected:after{
@@ -4051,12 +4028,12 @@ a.icon-recurrence--small:hover{
 }
 
 .CalendarDay__highlighted_calendar.CalendarDay__blocked_calendar.CalendarDay__selected.CalendarDay__today:before{
-  border-color:white;
+  border-color:rgb(255, 255, 255);
   pointer-events:none;
 }
 
 .CalendarDay__selected.CalendarDay__today:before{
-  border-color:white;
+  border-color:rgb(255, 255, 255);
 }
 
 .CalendarMonth{
@@ -4064,7 +4041,6 @@ a.icon-recurrence--small:hover{
   text-align:center;
   vertical-align:top;
   -webkit-user-select:none;
-  -moz-user-select:none;
   -ms-user-select:none;
   user-select:none;
 }
@@ -4335,7 +4311,6 @@ a.icon-recurrence--small:hover{
 
 .DateInput_input__readOnly{
   -webkit-user-select:none;
-  -moz-user-select:none;
   -ms-user-select:none;
   user-select:none;
 }
@@ -4570,7 +4545,7 @@ a.icon-recurrence--small:hover{
   background:#e6e6e6;
 }
 .publishDatePicker .CalendarDay__highlighted_calendar.CalendarDay__blocked_calendar.CalendarDay__blocked_out_of_range{
-  color:white;
+  color:rgb(255, 255, 255);
 }
 
 .publishDatePicker .CalendarDay__highlighted_calendar.CalendarDay__blocked_calendar.CalendarDay__blocked_out_of_range:after{
@@ -4578,7 +4553,7 @@ a.icon-recurrence--small:hover{
 }
 
 .publishDatePicker .CalendarDay__highlighted_calendar.CalendarDay__blocked_calendar.CalendarDay__blocked_out_of_range.CalendarDay__today:before{
-  border-color:white;
+  border-color:rgb(255, 255, 255);
 }
 .revokeDatePicker .teamplanner-revoke_day:after{
   background:transparent;
@@ -4604,11 +4579,11 @@ a.icon-recurrence--small:hover{
 }
 
 .revokeDatePicker .CalendarDay__default.CalendarDay__highlighted_calendar.CalendarDay__blocked_out_of_range{
-  color:white;
+  color:rgb(255, 255, 255);
 }
 .revokeDatePicker .CalendarDay__selected.CalendarDay__selected_start,
 .revokeDatePicker .CalendarDay__selected.CalendarDay__selected_start:hover{
-  color:white;
+  color:rgb(255, 255, 255);
 }
 
 .revokeDatePicker .CalendarDay__selected.CalendarDay__selected_start:after,
@@ -4618,7 +4593,7 @@ a.icon-recurrence--small:hover{
 
 .revokeDatePicker .CalendarDay__selected.CalendarDay__selected_end,
 .revokeDatePicker .CalendarDay__selected.CalendarDay__selected_end:hover{
-  color:white;
+  color:rgb(255, 255, 255);
 }
 
 .revokeDatePicker .CalendarDay__selected.CalendarDay__selected_end:after,
@@ -4628,7 +4603,7 @@ a.icon-recurrence--small:hover{
 
 .revokeDatePicker .CalendarDay__selected.CalendarDay__selected_start.CalendarDay__selected.CalendarDay__selected_end,
 .revokeDatePicker .CalendarDay__selected.CalendarDay__selected_star.CalendarDay__selected.CalendarDay__selected_endt:hover{
-  color:white;
+  color:rgb(255, 255, 255);
 }
 
 .revokeDatePicker .CalendarDay__selected.CalendarDay__selected_start.CalendarDay__selected.CalendarDay__selected_end:after,
@@ -4644,7 +4619,7 @@ a.icon-recurrence--small:hover{
 }
 
 .revokeDatePicker .CalendarDay__selected_span:hover{
-  color:white;
+  color:rgb(255, 255, 255);
 }
 
 .revokeDatePicker .CalendarDay__selected_span:hover:after{
@@ -4662,7 +4637,7 @@ a.icon-recurrence--small:hover{
 }
 .revokeDatePicker .CalendarDay__highlighted_calendar.CalendarDay__selected_span,
 .revokeDatePicker .CalendarDay__highlighted_calendar.CalendarDay__selected_span:hover{
-  color:white;
+  color:rgb(255, 255, 255);
 }
 
 .revokeDatePicker .CalendarDay__highlighted_calendar.CalendarDay__selected_span:after,
@@ -4674,7 +4649,7 @@ a.icon-recurrence--small:hover{
 }
 
 .revokeDatePicker .CalendarDay__hovered_offset:hover{
-  color:white;
+  color:rgb(255, 255, 255);
 }
 
 .revokeDatePicker .CalendarDay__hovered_offset:hover:after{
