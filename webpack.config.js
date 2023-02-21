@@ -1,4 +1,5 @@
 const { mergeWithRules } = require('webpack-merge');
+const WebpackShellPlugin = require('webpack-shell-plugin-next');
 const path = require('path');
 const dev = require('./Yesplan/resources/reactjs-components/webpack.dev');
 const postcssOptions = require('./Yesplan/resources/reactjs-components/postcss.config');
@@ -40,7 +41,8 @@ const prototypesConfig = {
         ]
       }
     ]
-  }
+  },
+  plugins: [new WebpackShellPlugin({ onBuildStart: { scripts: ['bash copyYPImages.sh'] } })]
 };
 
 
