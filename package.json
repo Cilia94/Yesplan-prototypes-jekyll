@@ -9,7 +9,7 @@
     "livereload": "jekyll serve --livereload",
     "dev": "node_modules/webpack/bin/webpack.js --config webpack.config.js --watch --hot --progress ",
     "build": "node_modules/webpack/bin/webpack.js --config webpack.prod.js ",
-    "checkecmaversion": "es-check es5 ./Yesplan/resources/reactjs-components/public/*.bundle.js",
+    "checkecmaversion": "es-check es5 prototypes/assets/*.bundle.js",
     "postinstall": "npm run tmexclude ",
     "tmexclude": "if which tmutil > /dev/null; then tmutil addexclusion node_modules; fi",
     "stylelint": "npx stylelint './Yesplan/resources/stylesheets/**/*.scss'"
@@ -152,7 +152,7 @@
     "process": "^0.11.10",
     "raw-loader": "^4.0.2",
     "react-intl-gettext": "git+https://github.com/Yesplan/react-intl-gettext.git",
-    "sass": "^1.32.0",
+    "sass": "1.32.0",
     "sass-loader": "^13.0.2",
     "source-map-support": "^0.5.21",
     "speed-measure-webpack-plugin": "^1.5.0",

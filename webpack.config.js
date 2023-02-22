@@ -1,6 +1,7 @@
 const { mergeWithRules } = require('webpack-merge');
 const WebpackShellPlugin = require('webpack-shell-plugin-next');
 const path = require('path');
+const remove = require('lodash/remove');
 const dev = require('./Yesplan/resources/reactjs-components/webpack.dev');
 const postcssOptions = require('./Yesplan/resources/reactjs-components/postcss.config');
 
@@ -58,8 +59,8 @@ const mergeRules = {
   }
 };
 
-// For DEV purposes (while WIP)
-// console.log(JSON.stringify(mergeWithRules(mergeRules)(dev, prototypesConfig)));
-
- module.exports =  mergeWithRules(mergeRules)(dev, prototypesConfig);
+const mergedWebpackConfig = mergeWithRules(mergeRules)(dev, prototypesConfig);
+/* The copy css step from /stylesheets to /public from the original Webpack is not needed in this setup */
+remove(mergedWebpackConfig.plugins, plugin => plugin.constructor && plugin.constructor.name === 'WebpackShellPlugin' && plugin.onBuildExit.blocking && plugin.onBuildExit.scripts.length === 1);
+module.exports = mergedWebpackConfig;
 
